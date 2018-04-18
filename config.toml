@@ -1,0 +1,36 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "ryan.c"
+theme = "hyde"
+relativeURLs = true
+author = "Ryan Campbell"
+
+[params]
+  description = "I believe writing is a hobby worth persuing, so I share my thoughts here."
+  copyright = " "
+  themeColor = "theme-base-0r"
+  latestpostcount = 3
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    title = "blog section"
+    url = "/blog/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "blog section"
+    url = "/projects/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "blog section"
+    url = "/about/"
+    weight = -110
+

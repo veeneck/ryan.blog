@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on ryan.c</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on ryan.c</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Apr 2018 15:17:53 -0400</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decentralized Web : First Impressions</title>
+      <link>/blog/first-impressions/</link>
+      <pubDate>Mon, 16 Apr 2018 15:17:53 -0400</pubDate>
+      
+      <guid>/blog/first-impressions/</guid>
+      <description>&lt;p&gt;After reading &lt;a href=&#34;https://www.oreilly.com/ideas/its-time-to-rebuild-the-web&#34;&gt;Time to Rebuild the Web?&lt;/a&gt; and the &lt;a href=&#34;(https://news.ycombinator.com/item?id=16847781)&#34;&gt;accompanying Hacker News discussion&lt;/a&gt;, I felt compelled to jump in and give &lt;a href=&#34;https://beakerbrowser.com/&#34;&gt;Beaker&lt;/a&gt; a shot. I was instantly excited. They type of excited where eight hours fly by and you don&amp;rsquo;t want to leave your computer. That said, I&amp;rsquo;m not sure if the appeal was from nostalgia or innovation.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
