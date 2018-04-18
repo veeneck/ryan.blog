@@ -1,0 +1,42 @@
+{{ define "main" -}}
+
+{{ if isset .Site.Params "latestpostcount" }}
+      <div class="posts">
+      {{ $nbPosts := len (where .Data.Pages "Section" "blog") }}
+      {{ if gt $nbPosts 0 }}
+          <h1>Latest</h1>
+          <ul>
+          {{ range (first .Site.Params.latestpostcount (where .Pages "Section" "blog")).GroupByDate "Jan, 2006" "desc" }}
+              {{ range sort .Pages "Date" "desc" }}
+                  <li class="post-item">
+                    <span class="meta">{{ .Date.Format "Jan 2, 2006" }}</span>
+                    <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
+                  </li>
+              {{ end }}
+          {{ end }}
+          </ul>
+
+          {{ if gt $nbPosts .Site.Params.latestpostcount }}
+              <a href="./blog/" class="see-more">See more ...</a>
+          {{ end }}
+      {{ end }}
+      </div>
+  {{ end }}
+
+<div class="posts">
+{{ range (where .Pages "Section" "blog") }}
+<div class="post">
+  <h1 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+  {{ .Summary }}
+  {{ if .Truncated }}
+  <div class="read-more-link">
+    <a href="{{ .RelPermalink }}">Read More…</a>
+  </div>
+  {{ end }}
+</div>
+{{- end }}
+</div>
+{{- end }}
