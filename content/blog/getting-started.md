@@ -55,14 +55,20 @@ That's it. That's how the live site is updated.
 
 ### Using a Domain with a dat://
 
---- 
+Two things need to happen for Beaker to recognize your domain name and use it with a `dat://` prefix. 
 
-2. Do Beaker sites only live on Beaker or any browser that supprots dats?
+First, [create a well-known file](https://github.com/beakerbrowser/beaker/wiki/Authenticated-Dat-URLs-and-HTTPS-to-Dat-Discovery). To do this:
 
-### User Interface
+1. Add a new folder named `.well-known` in your `/public` directory.
+2. Add a file named `dat` inside of the `.well-known` folder.
+3. Paste your `dat://` long URL into the newly created file and save.
+4. Push these changes to Github, which in turn will sync to Netlify.
 
-[Siteleaf](https://www.siteleaf.com) - hosted, not what I'm lloking for
-[Publii](https://getpublii.com) - local, exactly what I'm looking for but communty doesn't seem active so not sure if it will stick around
-[Grav](https://getgrav.org) - Myabe exactly what I need? Appears more active than Publii TBD
-Netlify GUI - Works with premade themes they offer, but does it work with custom HUGO theme?
+Once you've verified that `https://yourdomain/.well-known/dat` exists and doesn't give a 404, you're set. Notice that URL uses `https`. If you don't have SSL enabled on your site, it is required for this to work. Fortunately, that is easy. Just log in to Netlify and add SSL under your domains. They generate a free [Let's Encrypt](https://letsencrypt.org) certificate for you in one click.  
+
+### GUI?
+
+Overall, I love this workflow. Everytime I add a post, it takes three terminal commands to build the site and push it to both `dat://` and `http://`. Everything is fast, easy to debug locally, and well documented. To take it a step further, I'm excited by the idea of merging a pull request to instantly change a live blog. In comparison to this, a GUI feels slow and outdated.
+
+At the same, we need GUI's. By we, I mean the world. I was looking for modern static CMS GUI's and came across some interesting ideas. [Siteleaf](https://www.siteleaf.com) is beautiful, but I don't want something hosted. [Publii](ttps://getpublii.com) and [Grav](https://getgrav.org) run locally, but neither felt like it had the support that Hugo has. [NetlifyCMS](https://www.netlifycms.org) appears to be the most promising because it works with multiple static site generators including Hugo. It lacks features, but has active development. Keep an eye on the space -- this problem should be resolved soon.
 
