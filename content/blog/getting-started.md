@@ -77,3 +77,4 @@ At the same, we need GUI's. By we, I mean the world. I was looking for modern st
 2. Make a GitHub pages repo
 3. In Forestry settings, publish to GitHub pages repo
 4. Sync GitHub pages repo to Netlify instead of original repo
+5. Pull from GitHub down to local machine and run dat .  in terminal
