@@ -82,3 +82,5 @@ At the same, we need GUI's. By we, I mean the world. I was looking for modern st
 Entire process is easier for non techies...a bit slower for tech. Cache seems to clear faster on Netlify than Github, but I didn't run official test.
 
 Question: Can a local .dat watch the website an update itself to avoid step 5?
+
+Go through process to setup admin page on my own domain.
