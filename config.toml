@@ -4,7 +4,7 @@ title = "ryan.c"
 theme = "hyde"
 relativeURLs = true
 author = "Ryan Campbell"
-disqusShortname = "veeneck"
+disqusShortname = "ryan-c"
 
 [params]
   description = "I believe writing is a hobby worth persuing, so I share my thoughts here."
