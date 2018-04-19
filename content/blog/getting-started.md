@@ -14,16 +14,48 @@ Before getting into my process, it is helpful to read these first:
 - [How I Publish taravancil.com](dat://taravancil.com/blog/how-i-publish-taravancil-com/)
 - [Deploying a Modern, Secure Staitc Site](dat://tomjwatson.com/blog/deploying-a-modern-static-site/)
 
-Now, my process:
+Now, my process is similar to the above. I'm documenting for myself as much as anything. It's easy to walk away from something for a few weeks and then completely forget a step.
 
-2. Create Hugo site
-3. dat . to create decentral site and syn changes with dat
-4. Push to Github
-5. Github syncs to Netlify and site is updated
-6. Problems: No great UI...NetflyGUI exists but still needs works. [Siteleaf](https://www.siteleaf.com) feels like a good compromise because Jekyll / not locked in, but still paid and limited.
-7. Too hard for non techies.
+### Picking a Static CMS
 
-Need to figure out:
+I don't have a strong preference on this. I just knew I wanted something fresh and with momentum. [Hugo](http://gohugo.io) seems to satisy those needs, and it gives me a chance to play with Go. For now, I just started with a [theme](https://themes.gohugo.io), and I'll tailor it to my needs as I go along. Following the [quickstart guide](http://gohugo.io/getting-started/quick-start/) was enough to get me to a Hello World state.
+
+### Populating the Site
+
+By now, we've already lost all non tech users. That's OK, and I'll address a GUI later. For us techies, creating content is fairly straightforward.
+
+1. Open the entire site directory in your [favorite editor](https://www.sublimetext.com).
+2. Jump to the directory in terminal, and create a new post: `doSomething`
+3. Open the newly created `.md` file in your editor and write your post.
+4. Back in terminal, type `hugo` in the parent directory to generate the static files.
+5. Verify the entire site was created in the `/public` directory.
+
+_Note_: When you run `hugo` to build the site, it [won't delete any existing files](http://gohugo.io/getting-started/usage/#deploy-your-website) in the `/public` directory. It's best to delete everything in that directory before regenerating the site.
+
+### Publishing the Decentralized Site
+
+Creating a `.dat` is much easier than I expected it would be. Simply navigate to the `/public` directory in terminal and type `dat .`. That will convert the directory into a dat archive, and give it a unique address. When it runs, the output will be similar to:
+
+    dat v13.10.0
+    dat://38e18e7e5ddace84f0cad2d55056aa27acede9acd71df787324e1d48f5882567
+    Sharing dat: 82 files (1.8 MB)
+
+If you paste the `dat://` URL into Beaker, you should see your site.
+
+To take it a step further, you can create a free [Hashbase](http://hashbase.io) account and upload your dat archive to them. They will generate a URL like [dat://blog-rpc.hashbase.io/](dat://blog-rpc.hashbase.io/), which makes sharing a link to your site much cleaner. **Bonus**: Hashbase also hosts your site on https, so you can stop here if you don't want a custom domain for your site.
+
+### Publishing the Standard Site
+
+In my case, I did want to use a custom domain, so I had to pick a static site host. The most familiar one is Github pages, but [Netlify](https://www.netlify.com) seems to be the popular one right now. Netlify will sync with your Github account, and display a specified directory from the respository. After pushing my entire Hugo directory to Github, adding that repo to my free Netlify account, and telling Netfliy that `public` is the directory I wish to display, the process is as simple as:
+
+1. Commit any new files.
+2. Push the commit to master.
+
+That's it. That's how the live site is updated.
+
+### Using a Domain with a dat://
+
+--- 
 
 2. Do Beaker sites only live on Beaker or any browser that supprots dats?
 
