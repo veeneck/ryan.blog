@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.39" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Publishing a Decentralized Blog &middot; ryan.c</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="../../css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="../../css/poole.css">
+  <link type="text/css" rel="stylesheet" href="../../css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="../../css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="../../favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="ryan.c" />
+
+  
+</head>
+
+  <body class="theme-base-0r ">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="../../"><h1>ryan.c</h1></a>
+      <p class="lead">
+       I believe writing is a hobby worth persuing, so I share my thoughts here. 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="../../">Home</a> </li>
+      <li><a href="../../about/"> About </a></li><li><a href="../../blog/"> Blog </a></li><li><a href="../../projects/"> Projects </a></li>
+    </ul>
+
+    <p> </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Publishing a Decentralized Blog</h1>
+  <span class="post-date">Tue, Apr 17, 2018</span>
+  <p>The promising aspect of Beaker is that all web technologies work as expected. The fact that visting a site is as simple as creating an <code>index.html</code> and placing <code>dat</code> instead of <code>http</code> in front of the URL is a great start. The trickier aspect is teaching yourself to think in terms of a static, shared infrastructure instead of a central one. No database means that a static CMS is needed to manage the blog.</p>
+
+<p></p>
+
+<p>Before getting into my process, it is helpful to read these first:</p>
+
+<ul>
+<li><a href="dat://tmcw.hashbase.io/2017/07/20/decentralize-your-website.html">So you want to decentralize your website</a></li>
+<li><a href="dat://taravancil.com/blog/how-i-publish-taravancil-com/">How I Publish taravancil.com</a></li>
+<li><a href="dat://tomjwatson.com/blog/deploying-a-modern-static-site/">Deploying a Modern, Secure Staitc Site</a></li>
+</ul>
+
+<p>Now, my process:</p>
+
+<ol>
+<li>Create Hugo site</li>
+<li>dat . to create decentral site and syn changes with dat</li>
+<li>Push to Github</li>
+<li>Github syncs to Netlify and site is updated</li>
+<li>Problems: No great UI&hellip;NetflyGUI exists but still needs works. <a href="https://www.siteleaf.com">Siteleaf</a> feels like a good compromise because Jekyll / not locked in, but still paid and limited.</li>
+<li>Too hard for non techies.</li>
+</ol>
+
+<p>Need to figure out:</p>
+
+<ol>
+<li>Do Beaker sites only live on Beaker or any browser that supprots dats?</li>
+</ol>
+
+<h3 id="user-interface">User Interface</h3>
+
+<p><a href="https://www.siteleaf.com">Siteleaf</a> - hosted, not what I&rsquo;m lloking for
+<a href="https://getpublii.com">Publii</a> - local, exactly what I&rsquo;m looking for but communty doesn&rsquo;t seem active so not sure if it will stick around
+<a href="https://getgrav.org">Grav</a> - Myabe exactly what I need? Appears more active than Publii TBD
+Netlify GUI - Works with premade themes they offer, but does it work with custom HUGO theme?</p>
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>

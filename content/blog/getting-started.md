@@ -1,7 +1,7 @@
 ---
 title: "Publishing a Decentralized Blog"
 date: 2018-04-17T12:24:17-04:00
-draft: true
+draft: false
 ---
 
 The promising aspect of Beaker is that all web technologies work as expected. The fact that visting a site is as simple as creating an `index.html` and placing `dat` instead of `http` in front of the URL is a great start. The trickier aspect is teaching yourself to think in terms of a static, shared infrastructure instead of a central one. No database means that a static CMS is needed to manage the blog. 
@@ -16,17 +16,21 @@ Before getting into my process, it is helpful to read these first:
 
 Now, my process:
 
-1. Create decentral site
 2. Create Hugo site
-3. Copy public directory over from Hugo to decentral
+3. dat . to create decentral site and syn changes with dat
 4. Push to Github
-5. Github syncs to Netlify
+5. Github syncs to Netlify and site is updated
 6. Problems: No great UI...NetflyGUI exists but still needs works. [Siteleaf](https://www.siteleaf.com) feels like a good compromise because Jekyll / not locked in, but still paid and limited.
 7. Too hard for non techies.
 
 Need to figure out:
 
-1. Auto copy from hugo build to Beaker site
 2. Do Beaker sites only live on Beaker or any browser that supprots dats?
-3. Pus to github and lock github to netlify
-4. Does netlify CMS work with any HUGO repo, or only their predefined themes?
+
+### User Interface
+
+[Siteleaf](https://www.siteleaf.com) - hosted, not what I'm lloking for
+[Publii](https://getpublii.com) - local, exactly what I'm looking for but communty doesn't seem active so not sure if it will stick around
+[Grav](https://getgrav.org) - Myabe exactly what I need? Appears more active than Publii TBD
+Netlify GUI - Works with premade themes they offer, but does it work with custom HUGO theme?
+
