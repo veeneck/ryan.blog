@@ -71,4 +71,4 @@ Overall, I love this workflow. Everytime I add a post, it takes three terminal c
 
 At the same, we need GUI's. By we, I mean the world. I was looking for modern static CMS GUI's and came across some interesting ideas. [Siteleaf](https://www.siteleaf.com) is beautiful, but I don't want something hosted. [Publii](ttps://getpublii.com) and [Grav](https://getgrav.org) run locally, but neither felt like it had the support that Hugo has. [NetlifyCMS](https://www.netlifycms.org) appears to be the most promising because it works with multiple static site generators including Hugo. It lacks features, but has active development. Keep an eye on the space -- this problem should be resolved soon.
 
-**Update**: Forestry exists! Figure this out. hm
+**Update**: Forestry exists! Figure this out. hmm
