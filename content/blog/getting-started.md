@@ -78,3 +78,7 @@ At the same, we need GUI's. By we, I mean the world. I was looking for modern st
 3. In Forestry settings, publish to GitHub pages repo
 4. Sync GitHub pages repo to Netlify instead of original repo
 5. Pull from GitHub down to local machine and run dat .  in terminal
+
+Entire process is easier for non techies...a bit slower for tech. Cache seems to clear faster on Netlify than Github, but I didn't run official test.
+
+Question: Can a local .dat watch the website an update itself to avoid step 5?
