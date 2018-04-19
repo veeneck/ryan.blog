@@ -1,18 +1,17 @@
 ---
-title: "Publishing a Decentralized Blog"
-date: 2018-04-17T12:24:17-04:00
-draft: false
+title: Publishing a Decentralized Blog
+date: 2018-04-17 12:24:17 -0400
+
 ---
+The promising aspect of Beaker is that all web technologies work as expected. The fact that visting a site is as simple as creating an `index.html` and placing `dat` instead of `http` in front of the URL is a great start. The trickier aspect is teaching yourself to think in terms of a static, shared infrastructure instead of a central one. No database means that a static CMS is needed to manage the blog.
 
-The promising aspect of Beaker is that all web technologies work as expected. The fact that visting a site is as simple as creating an `index.html` and placing `dat` instead of `http` in front of the URL is a great start. The trickier aspect is teaching yourself to think in terms of a static, shared infrastructure instead of a central one. No database means that a static CMS is needed to manage the blog. 
-
-<!--more--> 
+<!--more-->
 
 Before getting into my process, it is helpful to read these first:
 
-- [So you want to decentralize your website](dat://tmcw.hashbase.io/2017/07/20/decentralize-your-website.html)
-- [How I Publish taravancil.com](dat://taravancil.com/blog/how-i-publish-taravancil-com/)
-- [Deploying a Modern, Secure Staitc Site](dat://tomjwatson.com/blog/deploying-a-modern-static-site/)
+* [So you want to decentralize your website](dat://tmcw.hashbase.io/2017/07/20/decentralize-your-website.html)
+* [How I Publish taravancil.com](dat://taravancil.com/blog/how-i-publish-taravancil-com/)
+* [Deploying a Modern, Secure Staitc Site](dat://tomjwatson.com/blog/deploying-a-modern-static-site/)
 
 Now, my process is similar to the above. I'm documenting for myself as much as anything. It's easy to walk away from something for a few weeks and then completely forget a step.
 
@@ -55,7 +54,7 @@ That's it. That's how the live site is updated.
 
 ### Using a Domain with a dat://
 
-It would be even better if `dat://ryancampbell.blog` resolved to my site. Two things need to happen for Beaker to recognize your domain name and use it with a `dat://` prefix. 
+It would be even better if `dat://ryancampbell.blog` resolved to my site. Two things need to happen for Beaker to recognize your domain name and use it with a `dat://` prefix.
 
 First, [create a well-known file](https://github.com/beakerbrowser/beaker/wiki/Authenticated-Dat-URLs-and-HTTPS-to-Dat-Discovery). To do this:
 
@@ -64,7 +63,7 @@ First, [create a well-known file](https://github.com/beakerbrowser/beaker/wiki/A
 3. Paste your `dat://` long URL into the newly created file and save.
 4. Push these changes to Github, which in turn will sync to Netlify.
 
-Once you've verified that `https://yourdomain/.well-known/dat` exists and doesn't give a 404, you're set. Notice that URL uses `https`. If you don't have SSL enabled on your site, it is required for this to work. Fortunately, that is easy. Just log in to Netlify and add SSL under your domains. They generate a free [Let's Encrypt](https://letsencrypt.org) certificate for you in one click.  
+Once you've verified that `https://yourdomain/.well-known/dat` exists and doesn't give a 404, you're set. Notice that URL uses `https`. If you don't have SSL enabled on your site, it is required for this to work. Fortunately, that is easy. Just log in to Netlify and add SSL under your domains. They generate a free [Let's Encrypt](https://letsencrypt.org) certificate for you in one click.
 
 ### GUI?
 
@@ -72,3 +71,4 @@ Overall, I love this workflow. Everytime I add a post, it takes three terminal c
 
 At the same, we need GUI's. By we, I mean the world. I was looking for modern static CMS GUI's and came across some interesting ideas. [Siteleaf](https://www.siteleaf.com) is beautiful, but I don't want something hosted. [Publii](ttps://getpublii.com) and [Grav](https://getgrav.org) run locally, but neither felt like it had the support that Hugo has. [NetlifyCMS](https://www.netlifycms.org) appears to be the most promising because it works with multiple static site generators including Hugo. It lacks features, but has active development. Keep an eye on the space -- this problem should be resolved soon.
 
+**Update**: Forestry exists! 
