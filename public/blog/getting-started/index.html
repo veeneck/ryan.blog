@@ -63,29 +63,70 @@
 <li><a href="dat://tomjwatson.com/blog/deploying-a-modern-static-site/">Deploying a Modern, Secure Staitc Site</a></li>
 </ul>
 
-<p>Now, my process:</p>
+<p>Now, my process is similar to the above. I&rsquo;m documenting for myself as much as anything. It&rsquo;s easy to walk away from something for a few weeks and then completely forget a step.</p>
+
+<h3 id="picking-a-static-cms">Picking a Static CMS</h3>
+
+<p>I don&rsquo;t have a strong preference on this. I just knew I wanted something fresh and with momentum. <a href="http://gohugo.io">Hugo</a> seems to satisy those needs, and it gives me a chance to play with Go. For now, I just started with a <a href="https://themes.gohugo.io">theme</a>, and I&rsquo;ll tailor it to my needs as I go along. Following the <a href="http://gohugo.io/getting-started/quick-start/">quickstart guide</a> was enough to get me to a Hello World state.</p>
+
+<h3 id="populating-the-site">Populating the Site</h3>
+
+<p>By now, we&rsquo;ve already lost all non tech users. That&rsquo;s OK, and I&rsquo;ll address a GUI later. For us techies, creating content is fairly straightforward.</p>
 
 <ol>
-<li>Create Hugo site</li>
-<li>dat . to create decentral site and syn changes with dat</li>
-<li>Push to Github</li>
-<li>Github syncs to Netlify and site is updated</li>
-<li>Problems: No great UI&hellip;NetflyGUI exists but still needs works. <a href="https://www.siteleaf.com">Siteleaf</a> feels like a good compromise because Jekyll / not locked in, but still paid and limited.</li>
-<li>Too hard for non techies.</li>
+<li>Open the entire site directory in your <a href="https://www.sublimetext.com">favorite editor</a>.</li>
+<li>Jump to the directory in terminal, and create a new post using: <code>hugo new blog/first-post.md</code></li>
+<li>Open the newly created <code>.md</code> file in your editor and write your post.</li>
+<li>Back in terminal, type <code>hugo</code> in the parent directory to generate the static files.</li>
+<li>Verify the entire site was created in the <code>/public</code> directory.</li>
 </ol>
 
-<p>Need to figure out:</p>
+<p><em>Note</em>: When you run <code>hugo</code> to build the site, it <a href="http://gohugo.io/getting-started/usage/#deploy-your-website">won&rsquo;t delete any existing files</a> in the <code>/public</code> directory. It&rsquo;s best to delete everything in that directory before regenerating the site, but be sure permanent folders like .well-known stay in place.</p>
+
+<h3 id="publishing-the-decentralized-site">Publishing the Decentralized Site</h3>
+
+<p>Creating a <code>.dat</code> is much easier than I expected it would be. Simply navigate to the <code>/public</code> directory in terminal and type <code>dat .</code>. That will convert the directory into a dat archive, and give it a unique address. When it runs, the output will be similar to:</p>
+
+<pre><code>dat v13.10.0
+dat://38e18e7e5ddace84f0cad2d55056aa27acede9acd71df787324e1d48f5882567
+Sharing dat: 82 files (1.8 MB)
+</code></pre>
+
+<p>If you paste the <code>dat://</code> URL into Beaker, you should see your site.</p>
+
+<p>To take it a step further, you can create a free <a href="http://hashbase.io">Hashbase</a> account and upload your dat archive to them. They will generate a URL like <a href="dat://blog-rpc.hashbase.io/">dat://blog-rpc.hashbase.io/</a>, which makes sharing a link to your site much cleaner. <strong>Bonus</strong>: Hashbase also hosts your site on https, so you can stop here if you don&rsquo;t want a custom domain for your site.</p>
+
+<h3 id="publishing-the-standard-site">Publishing the Standard Site</h3>
+
+<p>In my case, I did want to use a custom domain, so I had to pick a static site host. The most familiar one is Github pages, but <a href="https://www.netlify.com">Netlify</a> seems to be the popular one right now. Netlify will sync with your Github account, and display a specified directory from the respository. After pushing my entire Hugo directory to Github, adding that repo to my free Netlify account, and telling Netfliy that <code>public</code> is the directory I wish to display, the process is as simple as:</p>
 
 <ol>
-<li>Do Beaker sites only live on Beaker or any browser that supprots dats?</li>
+<li>Commit any new files.</li>
+<li>Push the commit to master.</li>
 </ol>
 
-<h3 id="user-interface">User Interface</h3>
+<p>That&rsquo;s it. That&rsquo;s how the live site is updated.</p>
 
-<p><a href="https://www.siteleaf.com">Siteleaf</a> - hosted, not what I&rsquo;m lloking for
-<a href="https://getpublii.com">Publii</a> - local, exactly what I&rsquo;m looking for but communty doesn&rsquo;t seem active so not sure if it will stick around
-<a href="https://getgrav.org">Grav</a> - Myabe exactly what I need? Appears more active than Publii TBD
-Netlify GUI - Works with premade themes they offer, but does it work with custom HUGO theme?</p>
+<h3 id="using-a-domain-with-a-dat">Using a Domain with a dat://</h3>
+
+<p>It would be even better if <code>dat://ryancampbell.blog</code> resolved to my site. Two things need to happen for Beaker to recognize your domain name and use it with a <code>dat://</code> prefix.</p>
+
+<p>First, <a href="https://github.com/beakerbrowser/beaker/wiki/Authenticated-Dat-URLs-and-HTTPS-to-Dat-Discovery">create a well-known file</a>. To do this:</p>
+
+<ol>
+<li>Add a new folder named <code>.well-known</code> in your <code>/public</code> directory.</li>
+<li>Add a file named <code>dat</code> inside of the <code>.well-known</code> folder.</li>
+<li>Paste your <code>dat://</code> long URL into the newly created file and save.</li>
+<li>Push these changes to Github, which in turn will sync to Netlify.</li>
+</ol>
+
+<p>Once you&rsquo;ve verified that <code>https://yourdomain/.well-known/dat</code> exists and doesn&rsquo;t give a 404, you&rsquo;re set. Notice that URL uses <code>https</code>. If you don&rsquo;t have SSL enabled on your site, it is required for this to work. Fortunately, that is easy. Just log in to Netlify and add SSL under your domains. They generate a free <a href="https://letsencrypt.org">Let&rsquo;s Encrypt</a> certificate for you in one click.</p>
+
+<h3 id="gui">GUI?</h3>
+
+<p>Overall, I love this workflow. Everytime I add a post, it takes three terminal commands to build the site and push it to both <code>dat://</code> and <code>http://</code>. Everything is fast, easy to debug locally, and well documented. To take it a step further, I&rsquo;m excited by the idea of merging a pull request to instantly change a live blog. In comparison to this, a GUI feels slow and outdated.</p>
+
+<p>At the same, we need GUI&rsquo;s. By we, I mean the world. I was looking for modern static CMS GUI&rsquo;s and came across some interesting ideas. <a href="https://www.siteleaf.com">Siteleaf</a> is beautiful, but I don&rsquo;t want something hosted. <a href="ttps://getpublii.com">Publii</a> and <a href="https://getgrav.org">Grav</a> run locally, but neither felt like it had the support that Hugo has. <a href="https://www.netlifycms.org">NetlifyCMS</a> appears to be the most promising because it works with multiple static site generators including Hugo. It lacks features, but has active development. Keep an eye on the space &ndash; this problem should be resolved soon.</p>
 </div>
 
 
