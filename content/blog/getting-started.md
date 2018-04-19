@@ -25,12 +25,12 @@ I don't have a strong preference on this. I just knew I wanted something fresh a
 By now, we've already lost all non tech users. That's OK, and I'll address a GUI later. For us techies, creating content is fairly straightforward.
 
 1. Open the entire site directory in your [favorite editor](https://www.sublimetext.com).
-2. Jump to the directory in terminal, and create a new post: `doSomething`
+2. Jump to the directory in terminal, and create a new post using: `hugo new blog/first-post.md`
 3. Open the newly created `.md` file in your editor and write your post.
 4. Back in terminal, type `hugo` in the parent directory to generate the static files.
 5. Verify the entire site was created in the `/public` directory.
 
-_Note_: When you run `hugo` to build the site, it [won't delete any existing files](http://gohugo.io/getting-started/usage/#deploy-your-website) in the `/public` directory. It's best to delete everything in that directory before regenerating the site.
+_Note_: When you run `hugo` to build the site, it [won't delete any existing files](http://gohugo.io/getting-started/usage/#deploy-your-website) in the `/public` directory. It's best to delete everything in that directory before regenerating the site, but be sure permanent folders like .well-known stay in place.
 
 ### Publishing the Decentralized Site
 
@@ -55,7 +55,7 @@ That's it. That's how the live site is updated.
 
 ### Using a Domain with a dat://
 
-Two things need to happen for Beaker to recognize your domain name and use it with a `dat://` prefix. 
+It would be even better if `dat://ryancampbell.blog` resolved to my site. Two things need to happen for Beaker to recognize your domain name and use it with a `dat://` prefix. 
 
 First, [create a well-known file](https://github.com/beakerbrowser/beaker/wiki/Authenticated-Dat-URLs-and-HTTPS-to-Dat-Discovery). To do this:
 
