@@ -83,4 +83,4 @@ Entire process is easier for non techies...a bit slower for tech. Cache seems to
 
 Question: Can a local .dat watch the website an update itself to avoid step 5?
 
-Go through process to setup admin page on my own domain.
+Go through process to setup admin page on my own domain. Turns out it is [very easy.](https://forestry.io/docs/editing/remote-admin/)
