@@ -10,7 +10,7 @@ The promising aspect of Beaker is that all web technologies work as expected. Th
 
 <!--more-->
 
-<mark>**!! Update:**</mark> This post is still relevant, but I now have an [alternate workflow for when I want to use a GUI](http://ryancampbell.blog/blog/forestry---hugo---netlify/). Read them both!
+<mark>**Update:**</mark> This post is still relevant, but I now have an [alternate workflow for when I want to use a GUI](http://ryancampbell.blog/blog/forestry---hugo---netlify/). Read them both!
 
 Before getting into my process, it is helpful to read these first:
 
