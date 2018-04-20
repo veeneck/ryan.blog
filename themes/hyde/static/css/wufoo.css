@@ -1,5 +1,5 @@
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif !important;
 }
 @media (min-width: 48em) {
   html {
