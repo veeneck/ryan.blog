@@ -6,6 +6,7 @@ relativeURLs = true
 author = "Ryan Campbell"
 disqusShortname = "ryan-c"
 googleAnalytics = "UA-18183842-4"
+enableEmoji = true
 
 [params]
   description = "I believe writing is a hobby worth persuing, so I share my thoughts here."
@@ -17,22 +18,23 @@ googleAnalytics = "UA-18183842-4"
 
   [[menu.main]]
     identifier = "blog"
-    name = "Blog"
-    title = "blog section"
+    name = "Posts"
+    title = "Posts"
     url = "/blog/"
     weight = -110
 
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
-    title = "blog section"
+    title = "Projects"
     url = "/projects/"
     weight = -110
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "blog section"
-    url = "/about/"
+    identifier = "contact"
+    name = "Contact"
+    title = "Contact"
+    url = "/contact/"
     weight = -110
+
 
