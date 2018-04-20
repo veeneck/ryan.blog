@@ -1,11 +1,10 @@
 ---
-title: "Decentralized Web : First Impressions"
-date: 2018-04-16T15:17:53-04:00
-draft: false
+title: 'Decentralized Web : First Impressions'
+date: 2018-04-16 15:17:53 -0400
 tags:
 - decentralized
----
 
+---
 After reading [Time to Rebuild the Web?](https://www.oreilly.com/ideas/its-time-to-rebuild-the-web) and the [accompanying Hacker News discussion]((https://news.ycombinator.com/item?id=16847781)), I felt compelled to jump in and give [Beaker](https://beakerbrowser.com/) a shot. I was instantly excited. They type of excited where eight hours fly by and you don't want to leave your computer. That said, I'm not sure if the appeal was from nostalgia or innovation.
 
 <!--more--> 

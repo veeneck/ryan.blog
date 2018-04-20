@@ -1,5 +1,5 @@
 ---
-title: "Contact Section"
-partial: "contact.html"
----
+title: Contact Section
+partial: contact.html
 
+---

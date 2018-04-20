@@ -1,5 +1,5 @@
 ---
-title: "Blog Section"
-partial: "posts.html"
----
+title: Blog Section
+partial: posts.html
 
+---
