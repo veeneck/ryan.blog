@@ -7,6 +7,8 @@ The promising aspect of Beaker is that all web technologies work as expected. Th
 
 <!--more-->
 
+**!! Update:** This post is still relevant, but I now have an [alternate workflow for when I want to use a GUI](http://ryancampbell.blog/blog/forestry---hugo---netlify/). Read them both!
+
 Before getting into my process, it is helpful to read these first:
 
 * [So you want to decentralize your website](dat://tmcw.hashbase.io/2017/07/20/decentralize-your-website.html)
@@ -70,17 +72,3 @@ Once you've verified that `https://yourdomain/.well-known/dat` exists and doesn'
 Overall, I love this workflow. Everytime I add a post, it takes three terminal commands to build the site and push it to both `dat://` and `http://`. Everything is fast, easy to debug locally, and well documented. To take it a step further, I'm excited by the idea of merging a pull request to instantly change a live blog. In comparison to this, a GUI feels slow and outdated.
 
 At the same, we need GUI's. By we, I mean the world. I was looking for modern static CMS GUI's and came across some interesting ideas. [Siteleaf](https://www.siteleaf.com) is beautiful, but I don't want something hosted. [Publii](ttps://getpublii.com) and [Grav](https://getgrav.org) run locally, but neither felt like it had the support that Hugo has. [NetlifyCMS](https://www.netlifycms.org) appears to be the most promising because it works with multiple static site generators including Hugo. It lacks features, but has active development. Keep an eye on the space -- this problem should be resolved soon.
-
-**Update**: Forestry exists! Steps:
-
-1. Link Forestry to GitHub account
-2. Make a GitHub pages repo
-3. In Forestry settings, publish to GitHub pages repo
-4. Sync GitHub pages repo to Netlify instead of original repo
-5. Pull from GitHub down to local machine and run dat .  in terminal
-
-Entire process is easier for non techies...a bit slower for tech. Cache seems to clear faster on Netlify than Github, but I didn't run official test.
-
-Question: Can a local .dat watch the website an update itself to avoid step 5?
-
-Go through process to setup admin page on my own domain. Turns out it is [very easy.](https://forestry.io/docs/editing/remote-admin/)
