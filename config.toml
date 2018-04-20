@@ -1,6 +1,11 @@
+
+
+
+
+
 author = "Ryan Campbell"
-baseURL = "/"
-disqusShortname = "ryan-c"
+#disqusShortname = "ryan-c"
+googleAnalytics = "UA-18183842-4"
 enableEmoji = true
 googleAnalytics = "UA-18183842-4"
 languageCode = "en-us"
@@ -26,7 +31,32 @@ title = "Posts"
 url = "/blog/"
 weight = -110
 [params]
-copyright = " "
-description = "I believe writing is a hobby worth persuing, so I share my thoughts here."
-latestpostcount = 3
-themecolor = "theme-base-0r"
+  description = "I believe writing is a hobby worth persuing, so I share my thoughts here."
+  copyright = " "
+  themeColor = "theme-base-0r"
+  latestpostcount = 3
+
+[menu]
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Posts"
+    title = "Posts"
+    url = "/blog/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "Projects"
+    url = "/projects/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    title = "Contact"
+    url = "/contact/"
+    weight = -120
+
+
