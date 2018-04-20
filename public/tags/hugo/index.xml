@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on ryan.c</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in Hugo on ryan.c</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Apr 2018 01:17:47 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forestry &#43; Hugo &#43; Netlify</title>
+      <link>/blog/forestry---hugo---netlify/</link>
+      <pubDate>Fri, 20 Apr 2018 01:17:47 +0000</pubDate>
+      
+      <guid>/blog/forestry---hugo---netlify/</guid>
+      <description>&lt;p&gt;Just when I thought my publishing setup was finalized, I stumbled across &lt;a href=&#34;https://forestry.io&#34;&gt;Forestry&lt;/a&gt;. Forestry appears to solve my GUI wishlist all at once. GUI for Hugo? Check. Well designed for clients? Check. Can be mapped to my URL? Check. Well supported and documented? Check.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Publishing a Decentralized Blog</title>
+      <link>/blog/getting-started/</link>
+      <pubDate>Tue, 17 Apr 2018 12:24:17 -0400</pubDate>
+      
+      <guid>/blog/getting-started/</guid>
+      <description>&lt;p&gt;The promising aspect of Beaker is that all web technologies work as expected. The fact that visting a site is as simple as creating an &lt;code&gt;index.html&lt;/code&gt; and placing &lt;code&gt;dat&lt;/code&gt; instead of &lt;code&gt;http&lt;/code&gt; in front of the URL is a great start. The trickier aspect is teaching yourself to think in terms of a static, shared infrastructure instead of a central one. No database means that a static CMS is needed to manage the blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,9 @@
 ---
 title: Publishing a Decentralized Blog
 date: 2018-04-17 12:24:17 -0400
-
+tags:
+- decentralized
+- hugo
 ---
 The promising aspect of Beaker is that all web technologies work as expected. The fact that visting a site is as simple as creating an `index.html` and placing `dat` instead of `http` in front of the URL is a great start. The trickier aspect is teaching yourself to think in terms of a static, shared infrastructure instead of a central one. No database means that a static CMS is needed to manage the blog.
 

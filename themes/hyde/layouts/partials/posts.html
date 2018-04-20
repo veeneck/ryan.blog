@@ -1,0 +1,28 @@
+
+
+<h1>Posts and such.</h1>
+
+<p>If you've made it to this page, you should probably go ahead and <a href="/index.xml">subscribe to my feed.</a> Or, just have a look at my recent activity:</p>
+
+<div class="posts">
+  <ul>
+  {{ range (first 10 (where .Pages "Section" "blog")).GroupByDate "Jan, 2006" "desc" }}
+      {{ range sort .Pages "Date" "desc" }}
+          <li class="post-item">
+            <span class="meta">{{ .Date.Format "Jan 2" }}</span>
+            <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
+          </li>
+      {{ end }}
+  {{ end }}
+  </ul>
+</div>
+
+<h1>Peruse These Topics.</h1>
+
+<ul class="tags">
+  {{ range (.Site.GetPage "taxonomyTerm" "tags").Pages }}
+   <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+  {{ end }}
+</ul>
+
+

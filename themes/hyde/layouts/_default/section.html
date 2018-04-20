@@ -1,0 +1,15 @@
+{{ define "main" -}}
+
+{{ with (where .Data.Pages "Section" "blog") }}
+	{{ partial "posts.html" $ }}
+{{ end }}
+
+{{ with (where .Data.Pages "Section" "projects") }}
+	{{ partial "projects.html" . }}
+{{ end }}
+
+{{ if eq .Section "contact" }}
+	{{ partial "contact.html" . }}
+{{ end }}
+
+{{- end }}

@@ -1,0 +1,20 @@
+{{ define "main" -}}
+{{ with .Params.description }}
+    <p>{{.}}</p>
+  {{ end }}
+
+  <h1>So, you're interested in <mark>{{.Title}}</mark>.</h1>
+  <span class="post-date">The <b>{{ len (.Data.Pages) }}</b> results below may catch your eye.</span>
+
+  
+    {{ range .Data.Pages }}      
+       <h1>{{ .Title }}</h1>
+       {{ .Summary }}
+      
+      <div>
+        <a href="{{ .RelPermalink }}">Read More…</a>
+      </div>
+    {{ end }}
+  
+
+{{- end}}

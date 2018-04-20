@@ -1,7 +1,7 @@
 +++
 date = "2018-04-20T01:17:47+00:00"
 title = "Forestry + Hugo + Netlify"
-
+tags = ["decentralized", "hugo"]
 +++
 Just when I thought my publishing setup was finalized, I stumbled across [Forestry](https://forestry.io). Forestry appears to solve my GUI wishlist all at once. GUI for Hugo? Check. Well designed for clients? Check. Can be mapped to my URL? Check. Well supported and documented? Check.
 
