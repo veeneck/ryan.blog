@@ -5,7 +5,7 @@
 {{ end }}
 
 {{ with (where .Data.Pages "Section" "projects") }}
-	{{ partial "projects.html" . }}
+	{{ partial "projects.html" $ }}
 {{ end }}
 
 {{ if eq .Section "contact" }}

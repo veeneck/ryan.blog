@@ -1,1 +1,32 @@
 <h1>Dabbling In.</h1>
+
+    {{ range .Data.Pages }}      
+       {{ if eq .Params.status "active" }}
+	       <img class="project-thumb" width="200" src="{{ .Params.thumbnail }}" />
+	       <div>
+	       		<h4>{{ .Title }}</h4>
+	       		{{ .Summary }}
+	      </div>
+	      <div>
+	        <a href="{{ .RelPermalink }}">Learn More &rarr;</a>
+	      </div>
+	      <hr />
+      {{ end }}
+    {{ end }}
+
+<h1>Prior Years.</h1>
+
+    {{ range .Data.Pages }}      
+       {{ if eq .Params.status "inactive" }}
+	       <img class="project-thumb" width="200" src="{{ .Params.thumbnail }}" />
+	       <div>
+	       		<h4>{{ .Title }}</h4>
+	       		{{ .Summary }}
+	      </div>
+	      <div>
+	        <a href="{{ .RelPermalink }}">Learn More &rarr;</a>
+	      </div>
+	      <hr />
+      {{ end }}
+    {{ end }}
+

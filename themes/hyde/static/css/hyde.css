@@ -263,3 +263,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', end
 ul li {
   list-style: none;
 }
+
+.project-thumb {
+  float: left;
+  padding-right: 30px;
+}
