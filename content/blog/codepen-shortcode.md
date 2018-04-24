@@ -5,7 +5,6 @@ tags:
 - hugo
 
 ---
-
 Shortcodes allow you to add external content to a blog post in a user friendly way. Someone's tweet, an instagram photo, forms, and so on. Instead of a long ugly snippet of JavaScript, you can paste one line of clean shortcode. Hugo has [built in shortcode support](https://gohugo.io/content-management/shortcodes/), and adding a custom shortcode is super easy.
 
 <!--more-->
