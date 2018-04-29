@@ -21,7 +21,7 @@ For a second, I was so happy because everything seems to be supported by every b
 
 I dipped my feet into the responsive design pool with a simple task in mind -- build a hamburger menu. This is great starting point since it mainly applies to portrait mobile and anything larger than that. Here is the end result (resize your browser to see).
 
-{{< pen id="odLvQz" >}}
+{{< pen id="odLvQz" height="400" >}}
 
 [This pen by Brad Frost](https://codepen.io/bradfrost/pen/sHvaz) helped me navigate the waters. I was happy with how the implementation went until I realized that every single design decision will have to be combed over and designed for 4+ screen sizes. Ugh. Then, [some devices have specific considerations](https://webkit.org/blog/7929/designing-websites-for-iphone-x/). Double Ugh.
 
