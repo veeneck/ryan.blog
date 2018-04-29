@@ -1,6 +1,5 @@
 +++
 date = "2018-04-29T19:29:30Z"
-draft = true
 tags = ["charity"]
 title = "A Lot Changes in Five Years"
 
