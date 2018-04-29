@@ -9,7 +9,7 @@ I recently offered to create a website for a local charity, and then it hit me -
 
 <!--more-->
 
-Screenshot of finished in monitor, tablet and iPhone.
+![](/uploads/2018/04/29/fnse.png)
 
 ### The Design Process
 
