@@ -17,7 +17,9 @@ Compare screenshots before and after. Explain how it sucks.
 
 ### Responsive Sucks
 
-But hey, we don't have to browser test as much. Example hamburger menu. Then talk about things like [https://webkit.org/blog/7929/designing-websites-for-iphone-x/](https://webkit.org/blog/7929/designing-websites-for-iphone-x/ "https://webkit.org/blog/7929/designing-websites-for-iphone-x/") and other challenges. Nice to see things like CSS Breakpoints (link) in a SASS function (link)
+But hey, we don't have to browser test as much. Example hamburger menu. Link to 3 projects that completed it for you as pens. Also comb for links credited in the code. Then talk about things like [https://webkit.org/blog/7929/designing-websites-for-iphone-x/](https://webkit.org/blog/7929/designing-websites-for-iphone-x/ "https://webkit.org/blog/7929/designing-websites-for-iphone-x/") and other challenges. Nice to see things like CSS Breakpoints (link) in a SASS function (link)
+
+{{< pen id="odLvQz" >}}
 
 ### Codepen Helps
 
@@ -33,18 +35,20 @@ And while we're talking about old tools, Google Fonts is still wonderful.
 
 [https://css-tricks.com/scroll-fix-content/](https://css-tricks.com/scroll-fix-content/ "https://css-tricks.com/scroll-fix-content/") is a catch all, but a simpler way is fixed position on mobile and css sticky on web. Always a pain in the ass that looked glitchy in the JS days. Smooth scrolling even feels better. [https://css-tricks.com/snippets/jquery/smooth-scrolling/](https://css-tricks.com/snippets/jquery/smooth-scrolling/ "https://css-tricks.com/snippets/jquery/smooth-scrolling/")
 
+embed gif
+
 ### Flexbox Rocks & Doesn't
 
 OK, it mostly does. Allows you to change position of things using order (link, newsletter example), generally fixes div soup and float issue. Won't autoscale an image inside, unless it is in a figure ([https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox](https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox "https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox"))
 
 ### Animation is a Thing
 
-animate when in viewport. jQuery script
+animate when in viewport. jQuery script, link to example.
 
 ### Mailing Lists Can Be Static
 
 General note on trend of static. Solve mailing list by using Zapier an dMailchimp. will follow up with article.
 
-----
+---
 
 That about sums it up.
