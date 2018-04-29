@@ -29,7 +29,7 @@ I took this approach to [manage CSS breakpoints with a Sass mixin](https://css-t
 
 ### Codepen Helps
 
-Fortunately, with all of this CSS/responsive nonsense, [Codepen](http://codepen.io) is a huge help. I wasn't uncommon for me to have 3 pens open at any given time while working through issues. But an unexpected benefit was in creating my own pens. It forced me to clean up the code before "publishing" it. 
+Fortunately, with all of this CSS/responsive nonsense, [Codepen](http://codepen.io) is a huge help. I wasn't uncommon for me to have 3 pens open at any given time while working through issues. But an unexpected benefit was in creating my own pens. It forced me to clean up the code before "publishing" it.
 
 Cleaning up the code naturally made we want to set up [Sass](http://sass-lang.com). Before I knew it, I had files for [typography](https://devinhunt.github.io/typebase.css/), forms, constants, layout along with section specific CSS. I mention that to point out that just doing one simple task slowly, methodically, and correctly sets the stage for a better project.
 
@@ -45,7 +45,7 @@ Another oldie but goodie: [Google Fonts](https://fonts.google.com).
 
 Scrolling used to be a constant battle. Fixing elements at random positions to the top of the browser on scroll. Detecting page events on scroll. Scrolling to a section on click. It's all the same stuff. It just feels so much easier now.
 
-As an example, reference this [CSS Tricks article on scroll-then-fix content](https://css-tricks.com/scroll-fix-content/). they have a catch all solution, but for non critical elements that are fine working in _most_ browsers, it is even easier. Simply use position fixed on mobile to stick something at the top, and position sticky on everything else to scroll-then-fix at your desired position. 
+As an example, reference this [CSS Tricks article on scroll-then-fix content](https://css-tricks.com/scroll-fix-content/). they have a catch all solution, but for non critical elements that are fine working in _most_ browsers, it is even easier. Simply use position fixed on mobile to stick something at the top, and position sticky on everything else to scroll-then-fix at your desired position.
 
 Likewise, smooth scrolling just feels better now. I used [this plugin](https://css-tricks.com/snippets/jquery/smooth-scrolling/) (look at that, another CSS Tricks link). Everything performs smoother than expected. I remember when all of this was so glitchy, so it's a welcome change.
 
@@ -57,9 +57,30 @@ OK, it mostly does. Allows you to change position of things using order (link, n
 
 ### Animation is a Thing
 
-animate when in viewport. jQuery script, link to example.
+Subtle animation is everywhere. Look at my hamburger menu above. The hamburger turns into a cross thanks to [this pen by Matthew Blode](https://codepen.io/mblode/pen/evjfn). To take it a step further, most sites now have the concept of animating when something comes into the viewport. 
 
-also link to css that animated hamburger menu above
+[This Stack Overflow answer](https://stackoverflow.com/questions/27462306/css3-animate-elements-if-visible-in-viewport-page-scroll) produced this function which does the trick.
+
+    ;(function($, win) {
+      $.fn.inViewport = function(cb) {
+         return this.each(function(i,el){
+           function visPx(){
+             var H = $(this).height(),
+                 r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
+             return cb.call(el, Math.max(0, t>0? H-t : (b<H?b:H)));  
+           } visPx();
+           $(win).on("resize scroll", visPx);
+         });
+      };
+    }(jQuery, window));
+
+With that, I just added a className of `triggerMe` on anything I wanted to be notified when it came into view. At that point, the JS would recognize it with this code:
+
+    $(".triggerMe").inViewport(function(px){
+    	 if(px) $(this).addClass("triggeredCSS3") ;
+    });
+
+Finally, `triggeredCSS3` is added to the element, and any styles can be applied to make an element appear like it animates in on view.
 
 ### Tons of Stuff & Things
 
