@@ -43,7 +43,11 @@ Another oldie but goodie: [Google Fonts](https://fonts.google.com).
 
 ### Scrolling is Easier
 
-[https://css-tricks.com/scroll-fix-content/](https://css-tricks.com/scroll-fix-content/ "https://css-tricks.com/scroll-fix-content/") is a catch all, but a simpler way is fixed position on mobile and css sticky on web. Always a pain in the ass that looked glitchy in the JS days. Smooth scrolling even feels better. [https://css-tricks.com/snippets/jquery/smooth-scrolling/](https://css-tricks.com/snippets/jquery/smooth-scrolling/ "https://css-tricks.com/snippets/jquery/smooth-scrolling/")
+Scrolling used to be a constant battle. Fixing elements at random positions to the top of the browser on scroll. Detecting page events on scroll. Scrolling to a section on click. It's all the same stuff. It just feels so much easier now.
+
+As an example, reference this [CSS Tricks article on scroll-then-fix content](https://css-tricks.com/scroll-fix-content/). they have a catch all solution, but for non critical elements that are fine working in _most_ browsers, it is even easier. Simply use position fixed on mobile to stick something at the top, and position sticky on everything else to scroll-then-fix at your desired position. 
+
+Likewise, smooth scrolling just feels better now. I used [this plugin](https://css-tricks.com/snippets/jquery/smooth-scrolling/) (look at that, another CSS Tricks link). Everything performs smoother than expected. I remember when all of this was so glitchy, so it's a welcome change.
 
 embed gif
 
