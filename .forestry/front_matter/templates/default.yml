@@ -26,3 +26,5 @@ fields:
   default:
   - jamstack
   - decentralized
+  label: tags
+  name: tags
