@@ -9,7 +9,7 @@ Shortcodes allow you to add external content to a blog post in a user friendly w
 
 <!--more-->
 
-I thought I would be in trouble when Google found no obvious solution for a Codpen & Hugo shortcode. Fortunately, this git repo had [just what I was looking for](https://github.com/jorinvo/hugo-shortcodes/blob/master/shortcodes/pen.html). As stated in Hugo's [docs on custom shortcodes](https://gohugo.io/templates/shortcode-templates/), simply create a file at `layouts/shortcodes/name.html` where `name` is the name of the shortcode you want to add.
+I thought I would be in trouble when Google found no obvious solution for a Codepen & Hugo shortcode. Fortunately, this git repo had [just what I was looking for](https://github.com/jorinvo/hugo-shortcodes/blob/master/shortcodes/pen.html). As stated in Hugo's [docs on custom shortcodes](https://gohugo.io/templates/shortcode-templates/), simply create a file at `layouts/shortcodes/name.html` where `name` is the name of the shortcode you want to add.
 
 Once the `name.html` file is created, copy the code from the repo above into it an save. Then, simply add a pen your posts with:
 
