@@ -90,12 +90,8 @@ Finally, `triggeredCSS3` is added to the element, and any styles can be applied 
 
 ### Tons of Stuff & Things
 
-I was a bit surprised to see the ridiculous amount of projects and buzzwords. [Compass](http://compass-style.org), [Bourbon](https://www.bourbon.io), [Neat](https://neat.bourbon.io), [Suzy](http://oddbird.net/susy/), [20 other Sass mixins](http://www.webdesigndev.com/sass-mixin-libraries/), [Gulp](https://gulpjs.com), [npm](https://www.npmjs.com), [Webpack](https://webpack.js.org), [Angular](https://angularjs.org), [React](https://reactjs.org), [Vue](https://vuejs.org), [Foundation](https://foundation.zurb.com), [Grunt](https://gruntjs.com), [Hover](http://ianlunn.github.io/Hover/), [Animate](https://daneden.github.io/animate.css/), [PhotoSwipe](http://photoswipe.com) and on and on and on. Each aspect of web development has an array of specialized tools. It is a bit overwhelming, which is probably why I grated towards things I knew. I couldn't find a consensus starter pack of tools, so I still am unsure of which ones are worth spending time on.
-
-### Mailing Lists Can Be Static
-
-General note on trend of static. Solve mailing list by using Zapier an dMailchimp. will follow up with article.
+I was a bit surprised to see the ridiculous amount of projects and buzzwords. [Compass](http://compass-style.org), [Bourbon](https://www.bourbon.io), [Neat](https://neat.bourbon.io), [Suzy](http://oddbird.net/susy/), [20 other Sass mixins](http://www.webdesigndev.com/sass-mixin-libraries/), [Gulp](https://gulpjs.com), [npm](https://www.npmjs.com), [Webpack](https://webpack.js.org), [Angular](https://angularjs.org), [React](https://reactjs.org), [Vue](https://vuejs.org), [Foundation](https://foundation.zurb.com), [Grunt](https://gruntjs.com), [Hover](http://ianlunn.github.io/Hover/), [Animate](https://daneden.github.io/animate.css/), [PhotoSwipe](http://photoswipe.com) and [on and on and on](https://www.keycdn.com/blog/web-development-tools/). Each aspect of web development has an array of specialized tools. It is a bit overwhelming, which is probably why I grated towards things I knew. I couldn't find a consensus starter pack of tools, so I still am unsure of which ones are worth spending time on.
 
 ---
 
-That about sums it up.
+That about sums it up for now. The core concepts are all familiar, and layers have been added on top. Figuring out which layers have lasting power is the tricky part. I'll probably throw together another site with slightly different tools for research. Them, on to the new JavaScript world.
