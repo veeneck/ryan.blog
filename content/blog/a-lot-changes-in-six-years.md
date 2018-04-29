@@ -11,10 +11,6 @@ I recently offered to create a website for a local charity, and then it hit me -
 
 ![](/uploads/2018/04/29/fnse.png)
 
-### The Design Process
-
-Compare screenshots before and after. Explain how it sucks.
-
 ### Responsive Sucks
 
 For a second, I was so happy because everything seems to be supported by every browser. The days of old IE testing are over. The holy grail has been obtained. Wrong. Instead, every annoyance with browser testing has now been transferred one-to-one with an annoyance of responsive design.
@@ -51,10 +47,10 @@ Likewise, smooth scrolling just feels better now. I used [this plugin](https://c
 
 ### Flexbox Rocks & Doesn't
 
-OK, it [mostly does](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Some cool things it allows:
+OK, it [mostly does](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html). Some cool things it allows:
 
-1. Change position of elements with order. Example: newsletter.
-2. Switch from row to column layout, which makes designing for smaller screens much easier.
+1. You can [change the order of the children inside of the Flexbox](https://teamtreehouse.com/library/changing-the-order-of-flex-items) with one line of CSS. This means you could have something like a newsletter form which can easily appear at the top on one page and down by the footer in another.
+2. Switch from row to column layout, which makes designing for smaller screens much easier. Place them in row when you have the room, stack them on top of one another in column for smaller screens.
 3. Minimize [div soup](https://www.chillybin.com.sg/would-you-like-another-bowl-of-div-soup/).
 
 And a bunch of other cool stuff. I decided not to get into CSS Grid with this project. Next time. Until then, read [this article on the differences between the two](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf).
