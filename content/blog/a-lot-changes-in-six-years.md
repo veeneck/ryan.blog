@@ -49,8 +49,6 @@ As an example, reference this [CSS Tricks article on scroll-then-fix content](ht
 
 Likewise, smooth scrolling just feels better now. I used [this plugin](https://css-tricks.com/snippets/jquery/smooth-scrolling/) (look at that, another CSS Tricks link). Everything performs smoother than expected. I remember when all of this was so glitchy, so it's a welcome change.
 
-embed gif
-
 ### Flexbox Rocks & Doesn't
 
 [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "https://css-tricks.com/snippets/css/a-guide-to-flexbox/")
