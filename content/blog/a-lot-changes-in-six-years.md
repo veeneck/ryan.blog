@@ -63,7 +63,7 @@ Really, the only annoyance I had was in scaling images. Turns out, `img` tags wo
 
 ### Animation is a Thing
 
-Subtle animation is everywhere. Look at my hamburger menu above. The hamburger turns into a cross thanks to [this pen by Matthew Blode](https://codepen.io/mblode/pen/evjfn). To take it a step further, most sites now have the concept of animating when something comes into the viewport. 
+Subtle animation is everywhere. Look at my hamburger menu above. The hamburger turns into a cross thanks to [this pen by Matthew Blode](https://codepen.io/mblode/pen/evjfn). To take it a step further, most sites now have the concept of animating when something comes into the viewport.
 
 [This Stack Overflow answer](https://stackoverflow.com/questions/27462306/css3-animate-elements-if-visible-in-viewport-page-scroll) produced this function which does the trick.
 
@@ -90,7 +90,7 @@ Finally, `triggeredCSS3` is added to the element, and any styles can be applied 
 
 ### Tons of Stuff & Things
 
-I was a bit surprised to see the ridiculous amount of projects and buzzwords. Compass, Bourbon, Neat, Webpack, go find list of 10 more I hit. Hover, animate, PhotoSwipe. Each aspect of web development has an array of specialized tools. It is a bit overwhelming, which is probably why I grated towards things I knew. I couldn't find a consensus starter pack of tools, so I still am unsure of which ones are worth spending time on.
+I was a bit surprised to see the ridiculous amount of projects and buzzwords. [Compass](http://compass-style.org), [Bourbon](https://www.bourbon.io), [Neat](https://neat.bourbon.io), [Suzy](http://oddbird.net/susy/), [20 other Sass mixins](http://www.webdesigndev.com/sass-mixin-libraries/), [Gulp](https://gulpjs.com), [npm](https://www.npmjs.com), [Webpack](https://webpack.js.org), [Angular](https://angularjs.org), [React](https://reactjs.org), [Vue](https://vuejs.org), [Foundation](https://foundation.zurb.com), [Grunt](https://gruntjs.com), [Hover](http://ianlunn.github.io/Hover/), [Animate](https://daneden.github.io/animate.css/), [PhotoSwipe](http://photoswipe.com) and on and on and on. Each aspect of web development has an array of specialized tools. It is a bit overwhelming, which is probably why I grated towards things I knew. I couldn't find a consensus starter pack of tools, so I still am unsure of which ones are worth spending time on.
 
 ### Mailing Lists Can Be Static
 
