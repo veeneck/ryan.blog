@@ -17,7 +17,7 @@ Compare screenshots before and after. Explain how it sucks.
 
 ### Responsive Sucks
 
-But hey, we don't have to browser test as much. Example hamburger menu. Then talk about things like [https://webkit.org/blog/7929/designing-websites-for-iphone-x/](https://webkit.org/blog/7929/designing-websites-for-iphone-x/ "https://webkit.org/blog/7929/designing-websites-for-iphone-x/") and other challenges.
+But hey, we don't have to browser test as much. Example hamburger menu. Then talk about things like [https://webkit.org/blog/7929/designing-websites-for-iphone-x/](https://webkit.org/blog/7929/designing-websites-for-iphone-x/ "https://webkit.org/blog/7929/designing-websites-for-iphone-x/") and other challenges. Nice to see things like CSS Breakpoints (link) in a SASS function (link)
 
 ### Codepen Helps
 
@@ -26,6 +26,8 @@ Both in finding snippets, and forcing yourself to clean and test code before pos
 ### Codekit Still Does The Job (JQuery Too!)
 
 Integrate it into Hugo, compiles sass just fine. Nice to see JQuery hasn't gone out of style. I'd still use Prototype if I could. Webpack is painful.
+
+And while we're talking about old tools, Google Fonts is still wonderful.
 
 ### Scrolling is Easier
 
@@ -38,3 +40,11 @@ OK, it mostly does. Allows you to change position of things using order (link, n
 ### Animation is a Thing
 
 animate when in viewport. jQuery script
+
+### Mailing Lists Can Be Static
+
+General note on trend of static. Solve mailing list by using Zapier an dMailchimp. will follow up with article.
+
+----
+
+That about sums it up.
