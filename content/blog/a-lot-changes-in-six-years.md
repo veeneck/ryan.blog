@@ -21,7 +21,7 @@ For a second, I was so happy because everything seems to be supported by every b
 
 I dipped my feet into the responsive design pool with a simple task in mind -- build a hamburger menu. This is great starting point since it mainly applies to portrait mobile and anything larger than that. Here is the end result (resize your browser to see).
 
-{{< pen id="odLvQz" height="400" >}}
+{{< pen id="odLvQz" height="300" >}}
 
 [This pen by Brad Frost](https://codepen.io/bradfrost/pen/sHvaz) helped me navigate the waters. I was happy with how the implementation went until I realized that every single design decision will have to be combed over and designed for 4+ screen sizes. Ugh. Then, [some devices have specific considerations](https://webkit.org/blog/7929/designing-websites-for-iphone-x/). Double Ugh.
 
@@ -31,7 +31,7 @@ I took this approach to [manage CSS breakpoints with a Sass mixin](https://css-t
 
 Fortunately, with all of this CSS/responsive nonsense, [Codepen](http://codepen.io) is a huge help. I wasn't uncommon for me to have 3 pens open at any given time while working through issues. But an unexpected benefit was in creating my own pens. It forced me to clean up the code before "publishing" it. 
 
-Cleaning up the code naturally made we want to set up Sass. Before I knew it, I had files for [typography](https://devinhunt.github.io/typebase.css/), forms, constants, layout along with section specific CSS. I mention that to point out that just doing one simple task slowly, methodically, and correctly sets the stage for a better project.
+Cleaning up the code naturally made we want to set up [Sass](http://sass-lang.com). Before I knew it, I had files for [typography](https://devinhunt.github.io/typebase.css/), forms, constants, layout along with section specific CSS. I mention that to point out that just doing one simple task slowly, methodically, and correctly sets the stage for a better project.
 
 ### Codekit Still Does The Job (JQuery Too!)
 
