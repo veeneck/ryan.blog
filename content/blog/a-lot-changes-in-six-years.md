@@ -17,9 +17,13 @@ Compare screenshots before and after. Explain how it sucks.
 
 ### Responsive Sucks
 
-But hey, we don't have to browser test as much. Example hamburger menu. Link to 3 projects that completed it for you as pens. Also comb for links credited in the code. Then talk about things like [https://webkit.org/blog/7929/designing-websites-for-iphone-x/](https://webkit.org/blog/7929/designing-websites-for-iphone-x/ "https://webkit.org/blog/7929/designing-websites-for-iphone-x/") and other challenges. Nice to see things like CSS Breakpoints (link) in a SASS function (link)
+For a second, I was so happy because everything seems to be supported by every browser. The days of old IE testing are over. The holy grail has been obtained. Wrong. Instead, every annoyance with browser testing has now been transferred one-to-one with an annoyance of responsive design.
+
+I dipped my feet into the responsive design pool with a simple task in mind -- build a hamburger menu. This is great starting point since it mainly applies to portrait mobile and anything larger than that. Here is the end result (resize your browser to see).
 
 {{< pen id="odLvQz" >}}
+
+But hey, we don't have to browser test as much. Example hamburger menu. Link to 3 projects that completed it for you as pens. Also comb for links credited in the code. Then talk about things like [https://webkit.org/blog/7929/designing-websites-for-iphone-x/](https://webkit.org/blog/7929/designing-websites-for-iphone-x/ "https://webkit.org/blog/7929/designing-websites-for-iphone-x/") and other challenges. Nice to see things like CSS Breakpoints (link) in a SASS function (link)
 
 ### Codepen Helps
 
@@ -44,6 +48,8 @@ OK, it mostly does. Allows you to change position of things using order (link, n
 ### Animation is a Thing
 
 animate when in viewport. jQuery script, link to example.
+
+also link to css that animated hamburger menu above
 
 ### Mailing Lists Can Be Static
 
