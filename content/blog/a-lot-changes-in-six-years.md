@@ -23,7 +23,9 @@ I dipped my feet into the responsive design pool with a simple task in mind -- b
 
 {{< pen id="odLvQz" >}}
 
-But hey, we don't have to browser test as much. Example hamburger menu. Link to 3 projects that completed it for you as pens. Also comb for links credited in the code. Then talk about things like [https://webkit.org/blog/7929/designing-websites-for-iphone-x/](https://webkit.org/blog/7929/designing-websites-for-iphone-x/ "https://webkit.org/blog/7929/designing-websites-for-iphone-x/") and other challenges. Nice to see things like CSS Breakpoints (link) in a SASS function (link)
+[This pen by Brad Frost](https://codepen.io/bradfrost/pen/sHvaz) helped me navigate the waters. I was happy with how the implementation went until I realized that every single design decision will have to be combed over and designed for 4+ screen sizes. Ugh. Then, [some devices have specific considerations](https://webkit.org/blog/7929/designing-websites-for-iphone-x/). Double Ugh.
+
+I took this approach to [manage CSS breakpoints with a SASS mixin](https://css-tricks.com/media-queries-sass-3-2-and-codekit/). I now see the date of 2012 on that article. Where has the time gone? Anyway, so far it's still working fine. Is there a better solution now?
 
 ### Codepen Helps
 
