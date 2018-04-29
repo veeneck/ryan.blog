@@ -51,9 +51,15 @@ Likewise, smooth scrolling just feels better now. I used [this plugin](https://c
 
 ### Flexbox Rocks & Doesn't
 
-[https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "https://css-tricks.com/snippets/css/a-guide-to-flexbox/")
+OK, it [mostly does](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Some cool things it allows:
 
-OK, it mostly does. Allows you to change position of things using order (link, newsletter example), generally fixes div soup and float issue. Won't autoscale an image inside, unless it is in a figure ([https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox](https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox "https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox"))
+1. Change position of elements with order. Example: newsletter.
+2. Switch from row to column layout, which makes designing for smaller screens much easier.
+3. Minimize [div soup](https://www.chillybin.com.sg/would-you-like-another-bowl-of-div-soup/).
+
+And a bunch of other cool stuff. I decided not to get into CSS Grid with this project. Next time. Until then, read [this article on the differences between the two](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf).
+
+Really, the only annoyance I had was in scaling images. Turns out, `img` tags won't autoscale in a Flexbox unless they are in a `figure` tag. [Read more](https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox).
 
 ### Animation is a Thing
 
