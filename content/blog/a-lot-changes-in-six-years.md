@@ -49,6 +49,8 @@ embed gif
 
 ### Flexbox Rocks & Doesn't
 
+[https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "https://css-tricks.com/snippets/css/a-guide-to-flexbox/")
+
 OK, it mostly does. Allows you to change position of things using order (link, newsletter example), generally fixes div soup and float issue. Won't autoscale an image inside, unless it is in a figure ([https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox](https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox "https://stackoverflow.com/questions/43759448/image-doesnt-scale-inside-flexbox"))
 
 ### Animation is a Thing
