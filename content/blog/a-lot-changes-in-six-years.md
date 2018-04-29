@@ -35,9 +35,11 @@ Cleaning up the code naturally made we want to set up [Sass](http://sass-lang.co
 
 ### Codekit Still Does The Job (JQuery Too!)
 
-Integrate it into Hugo, compiles sass just fine. Nice to see JQuery hasn't gone out of style. I'd still use Prototype if I could. Webpack is painful.
+Since I'm jumping into new tools, I figured [Webpack](https://webpack.js.org) was the next obvious target. 15 minutes into their docs and I decided that this project would focus on HTML & CSS. A Webpack project can come later. Too much complexity for now.
 
-And while we're talking about old tools, Google Fonts is still wonderful.
+So, I resorted to my old staples: [Codekit](https://codekitapp.com) and [JQuery](http://jquery.com). Fortunately, both are still alive and kicking. I had no problem integrating Codekit into my Hugo workflow, and JQuery still works as expected.
+
+Another oldie but goodie: [Google Fonts](https://fonts.google.com).
 
 ### Scrolling is Easier
 
@@ -54,6 +56,10 @@ OK, it mostly does. Allows you to change position of things using order (link, n
 animate when in viewport. jQuery script, link to example.
 
 also link to css that animated hamburger menu above
+
+### Tons of Stuff & Things
+
+I was a bit surprised to see the ridiculous amount of projects and buzzwords. Compass, Bourbon, Neat, Webpack, go find list of 10 more I hit. Hover, animate, PhotoSwipe. Each aspect of web development has an array of specialized tools. It is a bit overwhelming, which is probably why I grated towards things I knew. I couldn't find a consensus starter pack of tools, so I still am unsure of which ones are worth spending time on.
 
 ### Mailing Lists Can Be Static
 
