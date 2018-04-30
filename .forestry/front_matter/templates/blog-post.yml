@@ -23,8 +23,6 @@ fields:
   hidden: false
   default: true
 - type: tag_list
-  default:
-  - jamstack
-  - decentralized
+  default: []
   label: tags
   name: tags
