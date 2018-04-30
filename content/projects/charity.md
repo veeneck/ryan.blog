@@ -9,10 +9,11 @@ Amanda and I have a goal of becoming more involved over the next two years. I'll
 
 <!--more-->
 
-
 ### Expertise
 
 Can we offer design and hosting services? Do websites matter for small, local charities? What sort of traffic do they get. Can meaningful donations be funnel through the site? Do online stores for swag work? Do event organization online work, or is it easier through Facebook?
+
+First attempt at helping: [A New Site](http://ryancampbell.blog/blog/a-lot-changes-in-six-years/)
 
 ### Fundraising
 
@@ -25,4 +26,3 @@ There are plenty of great reasons to donate. How do we choose? How do we know wh
 ### Time
 
 Volunteer for existing projects. What does it involve to become a volunteer? How to stay updated? Are there mailing lists, etc?
-
