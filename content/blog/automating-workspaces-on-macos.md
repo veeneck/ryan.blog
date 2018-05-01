@@ -109,12 +109,10 @@ Ignore this actions input to change background when switching spaces
 
 ### Other Notes
 
-Codekit doesn't like Moom because it resizes on its own
+While configuring all of this, I ran into these oddities:
 
-hot_exit:false needed for sublime
-
-Note - click off app before switching or else open app won’t close
-
-Changing Icons: [http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/](http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/ "http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/") to change app icons
-
-key codes if you need them: [https://eastmanreference.com/complete-list-of-applescript-key-codes/](https://eastmanreference.com/complete-list-of-applescript-key-codes/ "https://eastmanreference.com/complete-list-of-applescript-key-codes/")
+1. Codekit doesn't like Moom since it resizes on launch. I had to manually position the size of the window that sits next to Codekit.
+2. Sublime Text opens all recently used projects by default. In user defaults, set `hot_exit:false` to prevent this.
+3. Before running the Automator application that you created, click onto the desktop. Quit all apps won't work if one of your current apps has focus.
+4. Consider changing your newly create app by [giving it a custom icon](http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/ ).
+5. [Here is handy list of key codes]() that you may need.
