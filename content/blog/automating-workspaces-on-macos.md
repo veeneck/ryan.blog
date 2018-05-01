@@ -48,7 +48,7 @@ Notice that the script above uses keycde 20 instead of "3". There a[ppears to be
 
 ### Resizing Windows
 
-This was a tricky one. Resizing windows is possible with AppleScript, but it would be tedious. Fortunately, I discovered the Moom (a window manager) has snapshots which save the layout of any space you tell it to. To make it better, they added AppleScript support for snapshots, so that you can trigger a snapshot from a script. Once I automate all of my windows, the final step is to run this snippet:
+This was a tricky one. [Resizing windows](https://www.labnol.org/software/resize-mac-windows-to-specific-size/28345/) is possible with AppleScript, but it would be tedious. Fortunately, I discovered the [Moom](https://manytricks.com/moom/) (a window manager) has snapshots which save the layout of any space you tell it to. You also provide a custom name for the snapshot. In this case, the name is `Web Dev Build & Commit`. To make it better, they added AppleScript support for snapshots, so that you can trigger a snapshot from a script. Once I automate all of my windows, the final step is to run this snippet:
 
     on run {input, parameters}
     	
@@ -61,11 +61,7 @@ This was a tricky one. Resizing windows is possible with AppleScript, but it wou
     	return input
     end run
 
-Show how to save a snapshot in moom
-
-Then show help docs which show what automator supports.
-
-Then automator code.
+Also, if you open Moom and then go to Help->AppleScript they have a list of all commands they support. Good stuff.
 
 ### Changing Desktop Image
 
