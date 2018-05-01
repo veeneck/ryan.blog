@@ -13,13 +13,32 @@ I'm sure plenty of people have scripts to handle common tasks, but I've never ne
 
 <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/WanJoyousAmericanalligator' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
-Link to automator basics and then jump into specifics and then point out my specific scripts.
+If you're unfamiliar with Automator, [this tutorial]() can bring you up to speed. One of the options in Automator is to run an AppleScript, which I ended up using the most. It's just more efficient to put in a couple of lines of code instead of 2 or 3 workflow actions. Below are the snippets I used most.
 
 ### Run Multiple Terminal Commands
 
-text
+With almost every project I need to open terminal. For websites, terminal runs localhost. For game development, terminal runs Jazzy docs. So, it is common to both want to be in the directory of the folder, and trigger some sort of action. Here is how I run a Hugo server automatically:
+
+    on run {input, parameters}
+    	
+    	tell application "Terminal"
+    		do script "cd /path/to/project" & ";hugo server -D"
+    		delay 0.5
+    	end tell
+    	
+    	return input
+    end run
 
 ### Jump To A Specific Space
+
+Next up, I've always like to organize my apps into different spaces. I prefer just a few apps per space, and to keep them all related. To get this AppleScript to work, you have to first enable keystrokes on your spaces. Once verified, go ahead and add this script.
+
+    on run {input, parameters}
+    	delay 1
+    	tell application "System Events" to key code 20 using control down
+    	delay 1
+    	return input
+    end run
 
 Link to macOS spaces, then article on keystrokes for spaces:
 
@@ -31,7 +50,20 @@ Note the bug that requires keycde: [https://discussions.apple.com/thread/7891341
 
 Credit: 	[https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces](https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces "https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces")
 
-### Moom to the Rescue
+### Resizing Windows
+
+This was a tricky one. Resizing windows is possible with AppleScript, but it would be tedious. Fortunately, I discovered the Moom (a window manager) has snapshots which save the layout of any space you tell it to. To make it better, they added AppleScript support for snapshots, so that you can trigger a snapshot from a script. Once I automate all of my windows, the final step is to run this snippet:
+
+    on run {input, parameters}
+    	
+    	tell application "Moom"
+    		delay 1
+    		arrange windows according to snapshot named "Web Dev Build & Commit"
+    		delay 1
+    	end tell
+    	
+    	return input
+    end run
 
 Show how to save a snapshot in moom
 
