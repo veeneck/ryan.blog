@@ -65,7 +65,7 @@ Also, if you open Moom and then go to Help->AppleScript they have a list of all 
 
 ### Changing Desktop Image
 
-like to change the desktop color and image often, and this automates that process. Depending on what I'm working on, the desktop will change. Automator has a built in action for `Get Specified Finder Items` and then `Set Desktop Picture` so no AppleScript is needed.
+I like to change the desktop color and image often, and this automates that process. Depending on what I'm working on, the desktop will change. Automator has a built in action for `Get Specified Finder Items` and then `Set Desktop Picture` so no AppleScript is needed.
 
 I did hit one bug though: When switching spaces after changing the desktop background, I would get a hard crash. To avoid this, I had to check `Ignore this action's input` under Options for the change space task.
 
