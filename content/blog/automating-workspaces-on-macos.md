@@ -93,7 +93,18 @@ Opening Safari to a specific URL is straightforward.
     	return input
     end run
 
-Opening in tabs is:
+Opening in tabs is simple once Safari is open:
+
+    on run {input, parameters}
+    	
+    	tell front window of application "Safari"
+    		set newTab to make new tab
+    		set the URL of newTab to "http://google.com"
+    		set the current tab to newTab
+    	end tell
+    	
+    	return input
+    end run
 
 ### Open Finder to a Directory
 
