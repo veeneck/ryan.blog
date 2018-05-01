@@ -130,4 +130,4 @@ While configuring all of this, I ran into these oddities:
 2. Sublime Text opens all recently used projects by default. In user defaults, set `hot_exit:false` to prevent this.
 3. Before running the Automator application that you created, click onto the desktop. Quit all apps won't work if one of your current apps has focus.
 4. Consider changing your newly create app by [giving it a custom icon](http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/ ).
-5. [Here is handy list of key codes]() that you may need.
+5. [Here is handy list of key codes](https://eastmanreference.com/complete-list-of-applescript-key-codes/) that you may need.
