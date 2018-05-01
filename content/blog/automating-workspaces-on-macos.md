@@ -73,9 +73,13 @@ Then automator code.
 
 ### Changing Desktop Image
 
-Ignore this actions input to change background when switching spaces
+ like to change the desktop color and image often, and this automates that process. Depending on what I'm working on, the desktop will change. Automator has a built in action for `Get Specified Finder Items` and then `Set Desktop Picture` so no AppleScript is needed.
+
+I did hit one bug though: When switching spaces after changing the desktop background, I would get a hard crash. To avoid this, I had to check `Ignore this action's input` under Options for the change space task.
 
 ### Open In App
+
+Opening directly in an application like Fork for version control is simple. It's worth noting the syntax for the path uses colons (:) instead of forward slashes (/) in this case.
 
     on run {input, parameters}
     	
@@ -88,6 +92,8 @@ Ignore this actions input to change background when switching spaces
 
 ### Open URL and Tabs in Safari
 
+Opening Safari to a specific URL is straightforward.
+
     on run {input, parameters}
     	
     	do shell script "open -a Safari 'http://localhost:1313'"
@@ -95,7 +101,11 @@ Ignore this actions input to change background when switching spaces
     	return input
     end run
 
+Opening in tabs is:
+
 ### Open Finder to a Directory
+
+Fairly simple task of just getting the directory open in Finder. This will open in the current Finder window if you have one open, or a new window if you don't.
 
     on run {input, parameters}
     	
