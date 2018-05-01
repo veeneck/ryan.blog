@@ -29,6 +29,8 @@ Then AppleScript of a space switch
 
 Note the bug that requires keycde: [https://discussions.apple.com/thread/7891341](https://discussions.apple.com/thread/7891341 "https://discussions.apple.com/thread/7891341")
 
+Credit: 	[https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces](https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces "https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces")
+
 ### Moom to the Rescue
 
 Show how to save a snapshot in moom
@@ -50,6 +52,8 @@ hot_exit:false needed for sublime
 Note - click off app before switching or else open app won’t close
 
 Changing Icons: [http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/](http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/ "http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/") to change app icons
+
+key codes if you need them: [https://eastmanreference.com/complete-list-of-applescript-key-codes/](https://eastmanreference.com/complete-list-of-applescript-key-codes/ "https://eastmanreference.com/complete-list-of-applescript-key-codes/")
 
 ### Other Examples
 
