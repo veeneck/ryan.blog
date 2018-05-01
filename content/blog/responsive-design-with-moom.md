@@ -5,4 +5,4 @@ tags = []
 title = "Responsive Design With Moom"
 
 +++
-
+Show how Moom can save settings to hotkey different window sizes.
