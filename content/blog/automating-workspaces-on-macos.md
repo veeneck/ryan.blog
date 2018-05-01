@@ -13,7 +13,11 @@ I'm sure plenty of people have scripts to handle common tasks, but I've never ne
 
 <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/WanJoyousAmericanalligator' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
-If you're unfamiliar with Automator, [this tutorial]() can bring you up to speed. One of the options in Automator is to run an AppleScript, which I ended up using the most. It's just more efficient to put in a couple of lines of code instead of 2 or 3 workflow actions. Below are the snippets I used most.
+If you're unfamiliar with Automator, [this tutorial](https://www.raywenderlich.com/58986/automator-for-mac-tutorial-and-examples) can bring you up to speed. It basically runs a sequence of commands in order to automate tedious tasks. Here is the output from the gif above.
+
+![](/uploads/2018/05/01/Screen Shot 2018-04-30 at 3.03.42 PM.png)
+
+One of the options in Automator is to run an AppleScript, which I ended up using the most. It's just more efficient to put in a couple of lines of code instead of 2 or 3 workflow actions. Below are the snippets I used most.
 
 ### Run Multiple Terminal Commands
 
@@ -31,7 +35,7 @@ With almost every project I need to open terminal. For websites, terminal runs l
 
 ### Jump To A Specific Space
 
-Next up, I've always like to organize my apps into different spaces. I prefer just a few apps per space, and to keep them all related. To get this AppleScript to work, you have to first enable keystrokes on your spaces. Once verified, go ahead and add this script.
+Next up, I've always like to organize my apps into different spaces. I prefer just a few apps per space, and to keep them all related. To get this AppleScript to work, you have to first [enable keystrokes on your spaces](http://osxdaily.com/2011/09/06/switch-between-desktops-spaces-faster-in-os-x-with-control-keys/). Once verified, go ahead and add this script.
 
     on run {input, parameters}
     	delay 1
@@ -40,15 +44,7 @@ Next up, I've always like to organize my apps into different spaces. I prefer ju
     	return input
     end run
 
-Link to macOS spaces, then article on keystrokes for spaces:
-
-[http://osxdaily.com/2011/09/06/switch-between-desktops-spaces-faster-in-os-x-with-control-keys/](http://osxdaily.com/2011/09/06/switch-between-desktops-spaces-faster-in-os-x-with-control-keys/ "http://osxdaily.com/2011/09/06/switch-between-desktops-spaces-faster-in-os-x-with-control-keys/")
-
-Then AppleScript of a space switch
-
-Note the bug that requires keycde: [https://discussions.apple.com/thread/7891341](https://discussions.apple.com/thread/7891341 "https://discussions.apple.com/thread/7891341")
-
-Credit: 	[https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces](https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces "https://www.quora.com/Are-there-any-scripts-to-automate-rotation-of-desktops-for-Mac-Spaces")
+Notice that the script above uses keycde 20 instead of "3". There a[ppears to be a bug where you have to use key codes](https://discussions.apple.com/thread/7891341) instead of a string of the key specifically when switching spaces.
 
 ### Resizing Windows
 
@@ -73,7 +69,7 @@ Then automator code.
 
 ### Changing Desktop Image
 
- like to change the desktop color and image often, and this automates that process. Depending on what I'm working on, the desktop will change. Automator has a built in action for `Get Specified Finder Items` and then `Set Desktop Picture` so no AppleScript is needed.
+like to change the desktop color and image often, and this automates that process. Depending on what I'm working on, the desktop will change. Automator has a built in action for `Get Specified Finder Items` and then `Set Desktop Picture` so no AppleScript is needed.
 
 I did hit one bug though: When switching spaces after changing the desktop background, I would get a hard crash. To avoid this, I had to check `Ignore this action's input` under Options for the change space task.
 
