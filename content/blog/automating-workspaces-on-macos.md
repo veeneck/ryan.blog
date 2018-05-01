@@ -75,6 +75,38 @@ Then automator code.
 
 Ignore this actions input to change background when switching spaces
 
+### Open In App
+
+    on run {input, parameters}
+    	
+    	tell application "Fork"
+    		open "path:to:project"
+    	end tell
+    	
+    	return input
+    end run
+
+### Open URL and Tabs in Safari
+
+    on run {input, parameters}
+    	
+    	do shell script "open -a Safari 'http://localhost:1313'"
+    	
+    	return input
+    end run
+
+### Open Finder to a Directory
+
+    on run {input, parameters}
+    	
+    	tell application "Finder"
+    		reopen
+    		set the target of the front Finder window to (POSIX file "/path/to/project/")
+    	end tell
+    	
+    	return input
+    end run
+
 ### Other Notes
 
 Codekit doesn't like Moom because it resizes on its own
@@ -86,13 +118,3 @@ Note - click off app before switching or else open app won’t close
 Changing Icons: [http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/](http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/ "http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/") to change app icons
 
 key codes if you need them: [https://eastmanreference.com/complete-list-of-applescript-key-codes/](https://eastmanreference.com/complete-list-of-applescript-key-codes/ "https://eastmanreference.com/complete-list-of-applescript-key-codes/")
-
-### Other Examples
-
-Open finder window
-
-Open Fork with given folder
-
-Open Safari with URL
-
-Open a second tab in safari
