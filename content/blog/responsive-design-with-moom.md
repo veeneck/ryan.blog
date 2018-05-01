@@ -6,3 +6,7 @@ title = "Responsive Design With Moom"
 
 +++
 Show how Moom can save settings to hotkey different window sizes.
+
+<!--more-->
+
+![](/uploads/2018/05/01/responsive.png)
