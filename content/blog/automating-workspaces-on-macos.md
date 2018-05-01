@@ -106,6 +106,8 @@ Opening in tabs is simple once Safari is open:
     	return input
     end run
 
+It also appears [form input is possible](http://www.cubemg.com/how-to-fill-out-forms-on-websites-with-applescript/), so my next step may be automating login on certain sites.
+
 ### Open Finder to a Directory
 
 Fairly simple task of just getting the directory open in Finder. This will open in the current Finder window if you have one open, or a new window if you don't.
