@@ -12,7 +12,6 @@ I'm sure plenty of people have scripts to handle common tasks, but I've never ne
 
 <div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/WanJoyousAmericanalligator' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
-
 If you're unfamiliar with Automator, [this tutorial](https://www.raywenderlich.com/58986/automator-for-mac-tutorial-and-examples) can bring you up to speed. It basically runs a sequence of commands in order to automate tedious tasks. Here is the output from the gif above.
 
 ![](/uploads/2018/05/01/Screen Shot 2018-04-30 at 3.03.42 PM.png)
@@ -118,6 +117,26 @@ Fairly simple task of just getting the directory open in Finder. This will open 
     		reopen
     		set the target of the front Finder window to (POSIX file "/path/to/project/")
     	end tell
+    	
+    	return input
+    end run
+
+### Close Fork Tabs
+
+Quit all applications is convenient, but some applications like to remember where they were last open. Fork, for example, will reopen with the new repository and all of the previous repositories, which gets cluttered. So, before calling the quit all applications workflow, I run this to close each for tab individually.
+
+    on run {input, parameters}
+    	
+    	if application "Fork" is running then
+    		activate application "Fork"
+    		tell application "System Events"
+    			tell process "Fork"
+    				repeat 3 times
+    					keystroke "w" using command down
+    				end repeat
+    			end tell
+    		end tell
+    	end if
     	
     	return input
     end run
