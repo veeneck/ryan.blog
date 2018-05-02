@@ -1,5 +1,5 @@
 +++
-date = "2018-05-02T19:58:34+00:00"
+date = "2018-05-02T19:58:34Z"
 tags = ["web"]
 title = "Responsive Design With Moom"
 
