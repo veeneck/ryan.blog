@@ -109,17 +109,20 @@ It also appears [form input is possible](http://www.cubemg.com/how-to-fill-out-f
 
 ### Open Finder to a Directory
 
-Fairly simple task of just getting the directory open in Finder. This will open in the current Finder window if you have one open, or a new window if you don't.
+Fairly simple task of just getting the directory open in a new Finder window while closing any previously open Finder windows. 
 
     on run {input, parameters}
     	
     	tell application "Finder"
-    		reopen
-    		set the target of the front Finder window to (POSIX file "/path/to/project/")
+    		close every window
+    		make new Finder window
+            set the target of the front Finder window to (POSIX file "/path/to/project/")
     	end tell
     	
     	return input
     end run
+
+You can also remove lines 4 and 5 and replace them with `reopen` if you want to open in the current Finder window if you have one open, or a new window if you don't.
 
 ### Close Fork Tabs
 
