@@ -1,5 +1,6 @@
 ---
 pages:
+- blog/add-jazzy-docs-to-hugo.md
 - blog/responsive-design-with-moom.md
 - blog/automating-workspaces-on-macos.md
 - blog/zapier-is-key-to-static-sites.md
