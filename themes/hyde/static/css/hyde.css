@@ -45,6 +45,27 @@ html {
   }
 }
 
+/*
+ * Custom Modifications by Ryan
+ */
+.related {
+  width: 100%;
+}
+
+.related a {
+  width: 49.6%;
+  display: inline-block;
+  margin: 0px;
+}
+
+a.previous {
+  text-align: left;
+}
+
+a.next {
+  text-align: right;
+}
+
 
 /*
  * Sidebar

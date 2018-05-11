@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/projects/shuffled/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/battleofbrothers/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>/projects/charity/</loc>
+  </url>
+  
+  <url>
+    <loc>/blog/responsive-design-with-moom/</loc>
+    <lastmod>2018-05-02T06:58:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/automating-workspaces-on-macos/</loc>
+    <lastmod>2018-05-01T00:21:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/a-lot-changes-in-six-years/</loc>
+    <lastmod>2018-04-29T19:29:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/i-m-late-to-the-jamstack-party/</loc>
+    <lastmod>2018-04-28T17:29:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/codepen-shortcode/</loc>
+    <lastmod>2018-04-24T12:36:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/forestry---hugo---netlify/</loc>
+    <lastmod>2018-04-20T01:17:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/getting-started/</loc>
+    <lastmod>2018-04-17T12:24:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/first-impressions/</loc>
+    <lastmod>2018-04-16T15:17:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2018-05-02T06:58:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/charity/</loc>
+    <lastmod>2018-04-29T19:29:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/decentralized/</loc>
+    <lastmod>2018-04-28T17:29:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/home/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2018-04-24T12:36:17-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/jamstack/</loc>
+    <lastmod>2018-04-28T17:29:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/particletree/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/productivity/</loc>
+    <lastmod>2018-05-01T00:21:37+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-04-29T19:29:30+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/web/</loc>
+    <lastmod>2018-05-02T06:58:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/wufoo/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-05-02T06:58:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

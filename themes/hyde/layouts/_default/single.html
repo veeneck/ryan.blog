@@ -7,6 +7,18 @@
   {{ .Content }}
 </div>
 
+{{ if ne .Section "projects" }}
+<div class="related">
+	<b>Additional Posts</b><br /><br />
+    {{ with .PrevInSection }}
+      <a class="previous" href="{{.Permalink}}">&#8592; {{.Title}}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a class="next" href="{{.Permalink}}">{{.Title}} &#8594; </a>
+    {{ end }}
+</div>
+{{ end }}
+
 {{ if .Site.DisqusShortname -}}
 <h2>Comments</h2>
 {{ template "_internal/disqus.html" . }}
