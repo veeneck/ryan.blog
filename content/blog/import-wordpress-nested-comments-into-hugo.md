@@ -38,7 +38,7 @@ This one took me forever to fix, which means it was a super obvious mistake. It 
 
 NetworkHobo has the [best guide on importing comments](https://networkhobo.com/2017/12/30/hugo---staticman-nested-replies-and-e-mail-notifications/), so definitely start there. Everything I have implemented piggybacks off of that content, so I won't be repeating it in this article. However, there were a few additional limitations that I came across with the templates.
 
-1. **Nesting more than one deep.**
+**Nesting more than one deep.**
 
 This is the biggest change I made to the NetworkHobo guide. I wanted to allow for unlimited nesting. To do that, each template had to be modified and set up in a recursive way. Here is the general concept:
 
@@ -81,9 +81,9 @@ This simplified version of `comment-display` simply renders the comment in a lis
 
 <p style="text-align:right"><small><I>comment-replies.html</i></small></p>
 
-Each nested thread is a brand new `ul`. Every single comment is looped over again to see if any match the `$,parentId`. If a match is found, `comment-display` is called and the match is rendered. If that match has its own children, it will enter this loop and render them out.
+Each nested thread is a brand new `ul`. Every single comment is looped over again to see if any match the `$.parentId`. If a match is found, `comment-display` is called and the match is rendered. If that match has its own children, it will enter this loop and render them out.
 
-2. **Displaying Comment Count**
+**Displaying Comment Count**
 
 Because the data is organized in a way that each post has it's own folder with only the relevant comments in it, looping over everything is not slow unless you're running a mega site. So, comment count is an easy grab both on the blog post and on any list pages where you want to preview comment count for the reader.
 
@@ -103,4 +103,4 @@ I made a partial for comment count with this code:
 
 From there, you can call `$.Scratch.Get "comment_count"` to render the count.
 
-3. **Custom Gravatars**
+**Custom Gravatars**
