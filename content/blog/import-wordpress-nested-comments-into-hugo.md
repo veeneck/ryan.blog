@@ -128,3 +128,5 @@ Then, when Staticman finishes processing, it redirects back to your site and jum
     }
 
 ### Import the Data
+
+Now we have a fully functional comment system on our site that works for new comments. The next step is to import old comments. This took me forever to get right.
