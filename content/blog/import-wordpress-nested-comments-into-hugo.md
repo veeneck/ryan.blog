@@ -138,3 +138,11 @@ Now we have a fully functional comment system on our site that works for new com
 I had problems with duplicate comments and posts in my export, so I had to add additional handling. I've posted [my version of the script on Github](https://gist.github.com/veeneck/cff15cb978993d40011e6800417ac110), which may give you a decent starting point.
 
 ### Deploy on Netlify
+
+Last minor issue I ran into is Netlify auto deploy. At first, I was lazy and would just build the public dir myself and have Netlify grab it. But, with static comments, that is not an option since Netlify has to build each time a comment is accepted. So, I set up my `netlify.toml` file and got to work. I kept getting this error during deployment:
+
+    Error: Unable to find theme Directory: /opt/build/repo/themes/Battle)
+
+It turns out that my theme folder was a lowercase `battle` but my Hugo config had an uppercase `Battle`. This works locally, but it is case sensitive during deployment.
+
+---
