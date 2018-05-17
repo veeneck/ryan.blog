@@ -42,9 +42,9 @@ NetworkHobo has the [best guide on importing comments](https://networkhobo.com/2
 
 This is the biggest change I made to the NetworkHobo guide. I wanted to allow for unlimited nesting. To do that, each template had to be modified and set up in a recursive way. Here is the general concept:
 
-    Single.html loops over every comment and includes comment-display.html
-    |---- comment-display.html displays the comment, and then includes comment-replies.html
-    	  |---- comment-replies.html searches for replies matching the parent_id, and if found calls comment-display.html
+    Single.html loops each comment and calls comment-display
+    |---- comment-display displays, and then calls comment-replies
+    	  |---- comment-replies finds replies, calls comment-display
     		    |---- loops until that reply has no more children
 
 Take a second to process that, and then have a look at the 3 related snippets below.
