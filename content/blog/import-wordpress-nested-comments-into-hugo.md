@@ -145,6 +145,6 @@ Last minor issue I ran into is Netlify auto deploy. At first, I was lazy and wou
 
 It turns out that my theme folder was a lowercase `battle` but my Hugo config had an uppercase `Battle`. This works locally, but it is case sensitive during deployment.
 
----
+### You Should Do It
 
 That about covers it. This was quite an involved process, but it was totally worth it. Now that I've done it once, future conversion will be much quicker, and there is a satisfaction that comes with a controlled comment system that doesn't require a database or third party.
