@@ -48,3 +48,13 @@ This is the biggest change I made to the NetworkHobo guide. I wanted to allow fo
     		    |---- Loops until no replies.
 
 Take a second to process that, and then have a look at the 3 related snippets below.
+
+    {{ range $index, $comments := $commentsForPost }}
+        {{ if not .reply_to }}
+            {{ partial "comment-display.html" (dict "entryId_parent" $entryId "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }} 
+        {{ end }}
+    {{ end }} 
+
+_single.html_
+
+Starting with the post display, loop over all comments that aren't replies and start a thread. For each comment, call `comment-display` and pass in the data about the comment.
