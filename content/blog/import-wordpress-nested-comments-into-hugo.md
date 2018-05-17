@@ -36,4 +36,4 @@ This one took me forever to fix, which means it was a super obvious mistake. It 
 
 ### Code Your Hugo Templates
 
-NetworkHobo has the [best guide on importing comments](https://networkhobo.com/2017/12/30/hugo---staticman-nested-replies-and-e-mail-notifications/), so definitely start there. Everything I have implemented piggybacks off of that content, so I won't be repeating it in this article.
+NetworkHobo has the [best guide on importing comments](https://networkhobo.com/2017/12/30/hugo---staticman-nested-replies-and-e-mail-notifications/), so definitely start there. Everything I have implemented piggybacks off of that content, so I won't be repeating it in this article. However, there were a few additional limitations that I came across with the templates.
