@@ -135,4 +135,6 @@ Now we have a fully functional comment system on our site that works for new com
 2. Loop over the XML and find the comments
 3. Make folders and files to match the needed data structure in Hugo
 
-I had problems with duplicate comments and posts in my export, so I had to add additional handling. I've posted my version of the script on Github, which may give you a decent starting point.
+I had problems with duplicate comments and posts in my export, so I had to add additional handling. I've posted [my version of the script on Github](https://gist.github.com/veeneck/cff15cb978993d40011e6800417ac110), which may give you a decent starting point.
+
+### Deploy on Netlify
