@@ -141,7 +141,7 @@ I had problems with duplicate comments and posts in my export, so I had to add a
 
 Last minor issue I ran into is Netlify auto deploy. At first, I was lazy and would just build the public dir myself and have Netlify grab it. But, with static comments, that is not an option since Netlify has to build each time a comment is accepted. So, I set up my `netlify.toml` file and got to work. I kept getting this error during deployment:
 
-    Error: Unable to find theme Directory: /opt/build/repo/themes/Battle)
+    Error: Unable to find theme Directory: /opt/build/repo/themes/Battle
 
 It turns out that my theme folder was a lowercase `battle` but my Hugo config had an uppercase `Battle`. This works locally, but it is case sensitive during deployment.
 
