@@ -17,9 +17,9 @@ Below I've documented some of the more interesting hurdles I encountered both in
 
 First up, I'd recommend getting Staticman comments working locally before attempting the import. This allows you to:
 
-* Code your actual Hugo templates
-* Finalize your design
-* See the data structure
+1. Code your actual Hugo templates
+2. Finalize your design
+3. See the data structure
 
 By doing it this way, when you finally import your Wordpress comments it will become 100% clear whether or not you imported the data correctly.
 
