@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on ryan.c</title>
-    <link>/projects/</link>
+    <link>https://ryancampbell.blog/projects/</link>
     <description>Recent content in Projects on ryan.c</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryancampbell.blog/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shuffled - A Photo Wall</title>
-      <link>/projects/shuffled/</link>
+      <link>https://ryancampbell.blog/projects/shuffled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/shuffled/</guid>
+      <guid>https://ryancampbell.blog/projects/shuffled/</guid>
       <description>&lt;p&gt;For awhile now, my wife and I have had the idea of a smart photo wall. Something that could schedule screen savers, sync across multiple displays, etc. We love documenting memories, and we wanted an elegant way to display them.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>Battle of Brothers</title>
-      <link>/projects/battleofbrothers/</link>
+      <link>https://ryancampbell.blog/projects/battleofbrothers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/battleofbrothers/</guid>
+      <guid>https://ryancampbell.blog/projects/battleofbrothers/</guid>
       <description>&lt;p&gt;Shortly after leaving SurveyMonkey, my brother and I decided to persue a passion: Game Development! How hard could it be, right? We naively created a one year competition to see who could make the better game.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -34,10 +34,10 @@
     
     <item>
       <title>Learning &amp; Blogging</title>
-      <link>/projects/blog/</link>
+      <link>https://ryancampbell.blog/projects/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/blog/</guid>
+      <guid>https://ryancampbell.blog/projects/blog/</guid>
       <description>&lt;p&gt;This blog serves the purpose of tracking my progress, and acts as a test bed to learn new concepts. I&amp;rsquo;ll keep a directory of those projects here.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -45,10 +45,10 @@
     
     <item>
       <title>Helping Charities</title>
-      <link>/projects/charity/</link>
+      <link>https://ryancampbell.blog/projects/charity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/charity/</guid>
+      <guid>https://ryancampbell.blog/projects/charity/</guid>
       <description>&lt;p&gt;Amanda and I have a goal of becoming more involved over the next two years. I&amp;rsquo;ll continue to update this space documenting the types of contributions we can make.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -56,10 +56,10 @@
     
     <item>
       <title>Particletree</title>
-      <link>/projects/particletree/</link>
+      <link>https://ryancampbell.blog/projects/particletree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/particletree/</guid>
+      <guid>https://ryancampbell.blog/projects/particletree/</guid>
       <description>&lt;p&gt;I credit Particletree with any success I have. Chris, Kevin and I were forced to push ourselves, stick to schedules, learn to work together, and generally get inspired.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -67,10 +67,10 @@
     
     <item>
       <title>Wufoo</title>
-      <link>/projects/wufoo/</link>
+      <link>https://ryancampbell.blog/projects/wufoo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/projects/wufoo/</guid>
+      <guid>https://ryancampbell.blog/projects/wufoo/</guid>
       <description>&lt;p&gt;The company I started with my brother (Chris Campbell) and friend (Kevin Hale) back when I was 23. A form builder! Exciting! Still proud of it, so here is the story.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

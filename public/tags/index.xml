@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ryan.c</title>
-    <link>/tags/</link>
+    <link>https://ryancampbell.blog/tags/</link>
     <description>Recent content in Tags on ryan.c</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Apr 2018 19:29:30 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ryancampbell.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Charity</title>
-      <link>/tags/charity/</link>
+      <link>https://ryancampbell.blog/tags/charity/</link>
       <pubDate>Sun, 29 Apr 2018 19:29:30 +0000</pubDate>
       
-      <guid>/tags/charity/</guid>
+      <guid>https://ryancampbell.blog/tags/charity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decentralized</title>
-      <link>/tags/decentralized/</link>
+      <link>https://ryancampbell.blog/tags/decentralized/</link>
       <pubDate>Sat, 28 Apr 2018 17:29:58 +0000</pubDate>
       
-      <guid>/tags/decentralized/</guid>
+      <guid>https://ryancampbell.blog/tags/decentralized/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Tue, 24 Apr 2018 12:36:17 -0400</pubDate>
+      <link>https://ryancampbell.blog/tags/hugo/</link>
+      <pubDate>Mon, 07 May 2018 20:06:53 -0400</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://ryancampbell.blog/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jamstack</title>
-      <link>/tags/jamstack/</link>
+      <link>https://ryancampbell.blog/tags/jamstack/</link>
       <pubDate>Sat, 28 Apr 2018 17:29:58 +0000</pubDate>
       
-      <guid>/tags/jamstack/</guid>
+      <guid>https://ryancampbell.blog/tags/jamstack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Productivity</title>
-      <link>/tags/productivity/</link>
+      <link>https://ryancampbell.blog/tags/productivity/</link>
       <pubDate>Tue, 01 May 2018 00:21:37 +0000</pubDate>
       
-      <guid>/tags/productivity/</guid>
+      <guid>https://ryancampbell.blog/tags/productivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>/tags/web/</link>
-      <pubDate>Wed, 02 May 2018 06:58:34 +0000</pubDate>
+      <link>https://ryancampbell.blog/tags/web/</link>
+      <pubDate>Mon, 07 May 2018 20:06:53 -0400</pubDate>
       
-      <guid>/tags/web/</guid>
+      <guid>https://ryancampbell.blog/tags/web/</guid>
       <description></description>
     </item>
     

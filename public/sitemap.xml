@@ -3,137 +3,142 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/projects/shuffled/</loc>
+    <loc>https://ryancampbell.blog/projects/shuffled/</loc>
   </url>
   
   <url>
-    <loc>/projects/battleofbrothers/</loc>
+    <loc>https://ryancampbell.blog/projects/battleofbrothers/</loc>
   </url>
   
   <url>
-    <loc>/projects/blog/</loc>
+    <loc>https://ryancampbell.blog/projects/blog/</loc>
   </url>
   
   <url>
-    <loc>/projects/charity/</loc>
+    <loc>https://ryancampbell.blog/projects/charity/</loc>
   </url>
   
   <url>
-    <loc>/blog/responsive-design-with-moom/</loc>
+    <loc>https://ryancampbell.blog/blog/add-jazzy-docs-to-hugo/</loc>
+    <lastmod>2018-05-07T20:06:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryancampbell.blog/blog/responsive-design-with-moom/</loc>
     <lastmod>2018-05-02T06:58:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/automating-workspaces-on-macos/</loc>
+    <loc>https://ryancampbell.blog/blog/automating-workspaces-on-macos/</loc>
     <lastmod>2018-05-01T00:21:37+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/a-lot-changes-in-six-years/</loc>
+    <loc>https://ryancampbell.blog/blog/a-lot-changes-in-six-years/</loc>
     <lastmod>2018-04-29T19:29:30+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/i-m-late-to-the-jamstack-party/</loc>
+    <loc>https://ryancampbell.blog/blog/i-m-late-to-the-jamstack-party/</loc>
     <lastmod>2018-04-28T17:29:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/codepen-shortcode/</loc>
+    <loc>https://ryancampbell.blog/blog/codepen-shortcode/</loc>
     <lastmod>2018-04-24T12:36:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/forestry---hugo---netlify/</loc>
+    <loc>https://ryancampbell.blog/blog/forestry---hugo---netlify/</loc>
     <lastmod>2018-04-20T01:17:47+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/getting-started/</loc>
+    <loc>https://ryancampbell.blog/blog/getting-started/</loc>
     <lastmod>2018-04-17T12:24:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/first-impressions/</loc>
+    <loc>https://ryancampbell.blog/blog/first-impressions/</loc>
     <lastmod>2018-04-16T15:17:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2018-05-02T06:58:34+00:00</lastmod>
+    <loc>https://ryancampbell.blog/blog/</loc>
+    <lastmod>2018-05-07T20:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://ryancampbell.blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/charity/</loc>
+    <loc>https://ryancampbell.blog/tags/charity/</loc>
     <lastmod>2018-04-29T19:29:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>https://ryancampbell.blog/contact/</loc>
   </url>
   
   <url>
-    <loc>/tags/decentralized/</loc>
+    <loc>https://ryancampbell.blog/tags/decentralized/</loc>
     <lastmod>2018-04-28T17:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/home/</loc>
+    <loc>https://ryancampbell.blog/home/</loc>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2018-04-24T12:36:17-04:00</lastmod>
+    <loc>https://ryancampbell.blog/tags/hugo/</loc>
+    <lastmod>2018-05-07T20:06:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/jamstack/</loc>
+    <loc>https://ryancampbell.blog/tags/jamstack/</loc>
     <lastmod>2018-04-28T17:29:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/projects/particletree/</loc>
+    <loc>https://ryancampbell.blog/projects/particletree/</loc>
   </url>
   
   <url>
-    <loc>/tags/productivity/</loc>
+    <loc>https://ryancampbell.blog/tags/productivity/</loc>
     <lastmod>2018-05-01T00:21:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/projects/</loc>
+    <loc>https://ryancampbell.blog/projects/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://ryancampbell.blog/tags/</loc>
     <lastmod>2018-04-29T19:29:30+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/web/</loc>
-    <lastmod>2018-05-02T06:58:34+00:00</lastmod>
+    <loc>https://ryancampbell.blog/tags/web/</loc>
+    <lastmod>2018-05-07T20:06:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/projects/wufoo/</loc>
+    <loc>https://ryancampbell.blog/projects/wufoo/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-05-02T06:58:34+00:00</lastmod>
+    <loc>https://ryancampbell.blog/</loc>
+    <lastmod>2018-05-07T20:06:53-04:00</lastmod>
     <priority>0</priority>
   </url>
   
