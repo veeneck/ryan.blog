@@ -113,4 +113,18 @@ Wordpress has a nice [human_time_diff](https://codex.wordpress.org/Function_Refe
 
 **Show Pending Comment**
 
-This is an obvious answer, but I thought it would be worth noting for anyone who read the NetworkHobo guide. After a reader comments, they are shown markup indicating that their comment is pending.
+This is an obvious answer, but I thought it would be worth noting for anyone who read the NetworkHobo guide. After a reader comments, they are shown markup indicating that their comment is pending. Something like:
+
+    <div id="post-submitted">Your comment is pending.</div>
+
+Then, when Staticman finishes processing, it redirects back to your site and jumps down to the `post-submitted` anchor. Handle to hide/show of this in your CSS with:
+
+    #post-submitted {
+    	display:none;
+    }
+    
+    #post-submitted:target {
+    	display: block;
+    }
+
+### Import the Data
