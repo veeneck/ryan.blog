@@ -109,4 +109,4 @@ In Wordpress, I had a `validateGravatars` function that would actually hit a Gra
 
 **Human Time Difference**
 
-Wordpress has a nice [`human_time_diff`](https://codex.wordpress.org/Function_Reference/human_time_diff) function that tells the reader how long ago a comment was made. For example, "3 minutes ago." 
+Wordpress has a nice [human_time_diff](https://codex.wordpress.org/Function_Reference/human_time_diff) function that tells the reader how long ago a comment was made. For example, "3 minutes ago." I haven't found a convenient way to do this in Hugo, but there is a JavaScript library to the resuce. [Moment.js does exactly that](http://momentjs.com).
