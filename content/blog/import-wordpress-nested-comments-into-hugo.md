@@ -17,8 +17,18 @@ Below I've documented some of the more interesting hurdles I encountered both in
 
 First up, I'd recommend getting Staticman comments working locally before attempting the import. This allows you to:
 
-* See the data structure
 * Code your actual Hugo templates
 * Finalize your design
+* See the data structure
 
 By doing it this way, when you finally import your Wordpress comments it will become 100% clear whether or not you imported the data correctly.
+
+The [Staticman starter guide](https://staticman.net/docs/) is perfect, so follow it step by step. It is fairly easy to get a basic form submitting to your Github repo. I only encountered two minor problems along the way. 
+
+    error: GITHUB_READING_FILE
+
+This is a simple one. You forgot to commit your staticman.yml file to master on Github. An understandable mistake when working locally. Next up:
+
+    error: MISSING_CONFIG_BLOCK
+
+This one took me forever to fix, which means it was a super obvious mistake. It means Staticman can't read your config file. In my case, the URL I had the form POST to was wrong. I left an third `}` at the end of my Hugo template, which added `%7D` to the end of the URL.
