@@ -55,6 +55,6 @@ Take a second to process that, and then have a look at the 3 related snippets be
         {{ end }}
     {{ end }} 
 
-<p style="text-align:right">_single.html_</p>
+<p style="text-align:right"><small><i>single.html</i></small></p>
 
 Starting with the post display, loop over all comments that aren't replies and start a thread. For each comment, call `comment-display` and pass in the data about the comment.
