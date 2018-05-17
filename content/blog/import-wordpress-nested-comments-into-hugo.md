@@ -106,3 +106,7 @@ From there, you can call `$.Scratch.Get "comment_count"` to render the count.
 **Custom Gravatars**
 
 In Wordpress, I had a `validateGravatars` function that would actually hit a Gravatar URL and check the headers to see if one exists. If no match, I would render a custom themes Gravatar. This won't work in Hugo since we can't just call a dynamic function. Fortunately for me, there was a simple solution. Gravatar supports `&d=http://yoursite.com/defaultImage.jp` in their URL where you can supply a default image.
+
+**Human Time Difference**
+
+Wordpress has a nice [`human_time_diff`](https://codex.wordpress.org/Function_Reference/human_time_diff) function that tells the reader how long ago a comment was made. For example, "3 minutes ago." 
