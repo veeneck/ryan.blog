@@ -47,14 +47,38 @@ This is the biggest change I made to the NetworkHobo guide. I wanted to allow fo
     	  |---- Finds replies, calls display.
     		    |---- Loops until no replies.
 
-Take a second to process that, and then have a look at the 3 related snippets below.
+Take a second to process that, and then have a look at the 3 related snippets below. We'll start with the base template file, and then jump into each nested call.
 
+    <ol>
     {{ range $index, $comments := $commentsForPost }}
         {{ if not .reply_to }}
             {{ partial "comment-display.html" (dict "entryId_parent" $entryId "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }} 
         {{ end }}
-    {{ end }} 
+    {{ end }}
+    </ol>
 
 <p style="text-align:right"><small><i>single.html</i></small></p>
 
 Starting with the post display, loop over all comments that aren't replies and start a thread. For each comment, call `comment-display` and pass in the data about the comment.
+
+    <li>
+    <p>{{ $.context.body | markdownify }}</p>
+    </li>
+    
+    {{ partial "comment-replies" (dict "entryId_parent" $.entryId_parent "SiteDataComments_parent" $.SiteDataComments_parent "parentId" $.context._id "parentName" .name "context" $.context) }}
+
+<p style="text-align:right"><small><I>comment-display.html</i></small></p>
+
+This simplified version of `comment-display` simply renders the comment in a list element and then outside of the list calls `comment-replies`.
+
+    <ul class="children">
+    {{ range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) }}
+      {{ if eq .reply_to $.parentId }}
+         	{{ partial "comment-display.html" (dict "entryId_parent" $.entryId_parent "SiteDataComments_parent" $.SiteDataComments_parent "parentId" ._id "parentName" .name "context" .) }} 
+      {{ end }}
+    {{ end }}
+    </ul>
+
+<p style="text-align:right"><small><I>comment-replies.html</i></small></p>
+
+Each nested thread is a brand new `ul`. Every single comment is looped over again to see if any match the `$,parentId`. If a match is found, `comment-display` is called and the match is rendered. If that match has its own children, it will enter this loop and render them out.
