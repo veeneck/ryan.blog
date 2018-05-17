@@ -82,3 +82,25 @@ This simplified version of `comment-display` simply renders the comment in a lis
 <p style="text-align:right"><small><I>comment-replies.html</i></small></p>
 
 Each nested thread is a brand new `ul`. Every single comment is looped over again to see if any match the `$,parentId`. If a match is found, `comment-display` is called and the match is rendered. If that match has its own children, it will enter this loop and render them out.
+
+2. **Displaying Comment Count**
+
+Because the data is organized in a way that each post has it's own folder with only the relevant comments in it, looping over everything is not slow unless you're running a mega site. So, comment count is an easy grab both on the blog post and on any list pages where you want to preview comment count for the reader.
+
+I made a partial for comment count with this code:
+
+    {{ $entryId := .File.BaseFileName }}
+    {{ $commentsForPost := index $.Site.Data.comments $entryId }}
+    {{ $.Scratch.Set "comment_count" "0 comments" }}
+    {{ with $commentsForPost }}
+    	{{ $count := len $commentsForPost }}
+    	{{ if eq $count 1 }}
+    		{{ $.Scratch.Set "comment_count" (printf "%s" (print 1 " comment")) }}
+    	{{ else }}
+    		{{ $.Scratch.Set "comment_count" (printf "%s" (print $count " comments")) }}
+    	{{ end }}
+    {{ end }}
+
+From there, you can call `$.Scratch.Get "comment_count"` to render the count.
+
+3. **Custom Gravatars**
