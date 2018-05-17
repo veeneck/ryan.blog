@@ -35,3 +35,5 @@ This is a simple one. You forgot to commit your staticman.yml file to master on 
 This one took me forever to fix, which means it was a super obvious mistake. It means Staticman can't read your config file. In my case, the URL I had the form POST to was wrong. I left an third `}` at the end of my Hugo template, which added `%7D` to the end of the URL. Look for errors along those lines if you see the code above.
 
 ### Code Your Hugo Templates
+
+NetworkHobo has the [best guide on importing comments](https://networkhobo.com/2017/12/30/hugo---staticman-nested-replies-and-e-mail-notifications/), so definitely start there. Everything I have implemented piggybacks off of that content, so I won't be repeating it in this article.
