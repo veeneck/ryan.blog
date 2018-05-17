@@ -11,4 +11,14 @@ I'm currently in the process of converting my most [complex Wordpress site](http
 
 As you begin the same migration, I'm sure that you'll come to the same conclusion. The entire Disqus ecosystem feels complex, dated and bloated which contradicts the fresh feel of starting over using a static site. Combined with their user tracking and lack of ownership over the comments, a static comment system becomes the only acceptable option. Enter [Staticman](https://staticman.net).
 
-I've documented some of the more interesting hurdles I encountered for future reference -- it may help you as you port your comment system to Staticman.
+Below I've documented some of the more interesting hurdles I encountered both in implementing Staticman and importing Wordpress comments.
+
+### Get Staticman Working First
+
+First up, I'd recommend getting Staticman comments working locally before attempting the import. This allows you to:
+
+* See the data structure
+* Code your actual Hugo templates
+* Finalize your design
+
+By doing it this way, when you finally import your Wordpress comments it will become 100% clear whether or not you imported the data correctly.
