@@ -20,6 +20,7 @@ First up, I'd recommend getting Staticman comments working locally before attemp
 1. Code your actual Hugo templates
 2. Finalize your design
 3. See the data structure
+4. Finally, import the data
 
 By doing it this way, when you finally import your Wordpress comments it will become 100% clear whether or not you imported the data correctly.
 
@@ -32,3 +33,5 @@ This is a simple one. You forgot to commit your staticman.yml file to master on 
     error: MISSING_CONFIG_BLOCK
 
 This one took me forever to fix, which means it was a super obvious mistake. It means Staticman can't read your config file. In my case, the URL I had the form POST to was wrong. I left an third `}` at the end of my Hugo template, which added `%7D` to the end of the URL. Look for errors along those lines if you see the code above.
+
+### Code Your Hugo Templates
