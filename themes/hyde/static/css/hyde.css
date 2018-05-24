@@ -64,6 +64,7 @@ a.previous {
 
 a.next {
   text-align: right;
+  float: right;
 }
 
 pre {
