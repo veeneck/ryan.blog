@@ -1,13 +1,4 @@
 ---
-pages:
-- blog/import-wordpress-nested-comments-into-hugo.md
-- blog/responsive-design-with-moom.md
-- blog/i-m-late-to-the-jamstack-party.md
-- blog/forestry---hugo---netlify.md
-- blog/add-jazzy-docs-to-hugo.md
-- blog/automating-workspaces-on-macos.md
-- blog/zapier-is-key-to-static-sites.md
-- blog/a-lot-changes-in-six-years.md
 hide_body: false
 is_partial: false
 fields:
@@ -30,3 +21,12 @@ fields:
   default: []
   label: tags
   name: tags
+pages:
+- blog/import-wordpress-nested-comments-into-hugo.md
+- blog/responsive-design-with-moom.md
+- blog/i-m-late-to-the-jamstack-party.md
+- blog/forestry---hugo---netlify.md
+- blog/add-jazzy-docs-to-hugo.md
+- blog/automating-workspaces-on-macos.md
+- blog/zapier-is-key-to-static-sites.md
+- blog/a-lot-changes-in-six-years.md
