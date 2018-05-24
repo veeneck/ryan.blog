@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
 }
+
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
@@ -230,6 +231,13 @@ tbody tr:nth-child(odd) th {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  display: none;
+}
+
+ @media (min-width: 35em) {
+    .lead {
+      display: block;
+    }
 }
 
 

@@ -78,13 +78,13 @@ pre {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
+  padding: 0px;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
 @media (min-width: 48em) {
   .sidebar {
+    padding: 2rem 1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -111,6 +111,17 @@ pre {
 .sidebar-nav {
   padding-left: 0;
   list-style: none;
+}
+
+.sidebar-nav li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+@media (min-width: 48em) {
+  .sidebar-nav li {
+    display: block;
+  }
 }
 .sidebar-nav-item {
   display: block;
@@ -146,7 +157,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    2rem;
   padding-bottom: 4rem;
 }
 
@@ -155,6 +166,7 @@ a.sidebar-nav-item:focus {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
+    padding-top:   4rem;
   }
 }
 
