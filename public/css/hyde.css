@@ -157,7 +157,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    2rem;
+  padding-top:    0.5rem;
   padding-bottom: 4rem;
 }
 
@@ -303,4 +303,5 @@ ul li {
 .project-thumb {
   float: left;
   padding-right: 30px;
+  max-width: 40%;
 }

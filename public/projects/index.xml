@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on ryan.c</title>
+    <link>https://ryancampbell.blog/projects/</link>
+    <description>Recent content in Projects on ryan.c</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ryancampbell.blog/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shuffled - A Photo Wall</title>
+      <link>https://ryancampbell.blog/projects/shuffled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/projects/shuffled/</guid>
+      <description>&lt;p&gt;For awhile now, my wife and I have had the idea of a smart photo wall. Something that could schedule screen savers, sync across multiple displays, etc. We love documenting memories, and we wanted an elegant way to display them.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Battle of Brothers</title>
+      <link>https://ryancampbell.blog/projects/battleofbrothers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/projects/battleofbrothers/</guid>
+      <description>&lt;p&gt;Shortly after leaving SurveyMonkey, my brother and I decided to persue a passion: Game Development! How hard could it be, right? We naively created a one year competition to see who could make the better game.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learning &amp; Blogging</title>
+      <link>https://ryancampbell.blog/projects/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/projects/blog/</guid>
+      <description>&lt;p&gt;This blog serves the purpose of tracking my progress, and acts as a test bed to learn new concepts. I&amp;rsquo;ll keep a directory of those projects here.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Helping Charities</title>
+      <link>https://ryancampbell.blog/projects/charity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/projects/charity/</guid>
+      <description>&lt;p&gt;Amanda and I have a goal of becoming more involved over the next two years. I&amp;rsquo;ll continue to update this space documenting the types of contributions we can make.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Particletree</title>
+      <link>https://ryancampbell.blog/projects/particletree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/projects/particletree/</guid>
+      <description>&lt;p&gt;I credit Particletree with any success I have. Chris, Kevin and I were forced to push ourselves, stick to schedules, learn to work together, and generally get inspired.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wufoo</title>
+      <link>https://ryancampbell.blog/projects/wufoo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/projects/wufoo/</guid>
+      <description>&lt;p&gt;The company I started with my brother (Chris Campbell) and friend (Kevin Hale) back when I was 23. A form builder! Exciting! Still proud of it, so here is the story.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
