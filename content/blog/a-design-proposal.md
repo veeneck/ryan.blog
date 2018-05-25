@@ -1,6 +1,5 @@
 +++
 date = "2018-05-25T07:28:18-04:00"
-draft = true
 tags = ["charity", "web"]
 title = "A Design Proposal"
 
