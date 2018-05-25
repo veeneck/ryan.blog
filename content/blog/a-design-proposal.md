@@ -14,3 +14,13 @@ That said, I recently gave them a first proposal. This came about once they offi
 I started messing around with a logo, and became a bit inspired by a cutout look.
 
 ![](/uploads/2018/05/25/logoone.png)
+
+As a neat added plus, the logo would change colors depending on what background it is on.
+
+![](/uploads/2018/05/25/different color.png)
+
+Moving forward, that led to a smaller version of the logo.
+
+![](/uploads/2018/05/25/logo.png)
+
+Sure, 4 squares is nothing original. It is clean though, and since this is for a local charity a strong unique brand doesn't have to be established.
