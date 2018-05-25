@@ -23,4 +23,6 @@ Moving forward, that led to a smaller version of the logo.
 
 ![](/uploads/2018/05/25/logo.png)
 
-Sure, 4 squares is nothing original. It is clean though, and since this is for a local charity a strong unique brand doesn't have to be established.
+Sure, 4 squares is nothing original. It is clean though, and since this is for a local charity a strong unique brand doesn't have to be established. I particularly liked the look of this logo with a donate button next to it.
+
+![](/uploads/2018/05/25/donate.png)
