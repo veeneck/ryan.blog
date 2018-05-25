@@ -26,3 +26,17 @@ Moving forward, that led to a smaller version of the logo.
 Sure, 4 squares is nothing original. It is clean though, and since this is for a local charity a strong unique brand doesn't have to be established. I particularly liked the look of this logo with a donate button next to it.
 
 ![](/uploads/2018/05/25/donate.png)
+
+After that, a next wave of inspiration hit when I stumbled across this [School Flat Collection](https://creativemarket.com/Palau/878285-School-Flat-Collection). That dictated a potential hero image and feel for the site.
+
+![](/uploads/2018/05/25/Screen Shot 2018-05-25 at 7.41.43 AM.png)
+
+Just like the logo, the top half of the site would work with any color, and can be changed as the charity needs to promote a new event. For example:
+
+![](/uploads/2018/05/25/Screen Shot 2018-05-25 at 7.42.42 AM.png)
+
+From there, I designed out different modules and sub pages based off of this brand idea. The shots above provide enough context though. It will be interesting to see where the final design ends up knowing that this was step one.
+
+As a bonus, here is the very first image I designed for this site. Looking back, it's awful. It's amazing what iteration does.
+
+![](/uploads/2018/05/25/fnsehome.png)
