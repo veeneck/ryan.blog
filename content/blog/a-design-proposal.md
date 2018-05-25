@@ -10,3 +10,7 @@ I've been working with a local charity to revamp their website. This has been a 
 <!--more-->
 
 That said, I recently gave them a first proposal. This came about once they officially asked for a new website. Now, I got inspired, and ran with an idea. This is prior to any meetings defining goals. Because of that, there is a good chance that the design and/or brand is not exactly what they're looking for. Still, I'm documenting it here so that I can look back.
+
+I started messing around with a logo, and became a bit inspired by a cutout look.
+
+![](/uploads/2018/05/25/logoone.png)
