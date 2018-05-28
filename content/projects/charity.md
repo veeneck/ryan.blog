@@ -15,6 +15,8 @@ Can we offer design and hosting services? Do websites matter for small, local ch
 
 First attempt at helping: [A first design proposal for their website.](https://ryancampbell.blog/blog/a-design-proposal/)
 
+Next: [A second design proposal](https://ryancampbell.blog/blog/a-second-design-proposal/).
+
 ### Fundraising
 
 How often can you ask parents and neighbors for money? What sorts of events work best?
