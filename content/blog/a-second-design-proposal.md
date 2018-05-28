@@ -16,6 +16,8 @@ Cleaner logo and fonts.
 
 ![](/uploads/2018/05/28/newlogo.png)
 
+<hr />
+
 Older logo and somewhat matching fonts.
 
 ![](/uploads/2018/05/28/currentlogo.png)
