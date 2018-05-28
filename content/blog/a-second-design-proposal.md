@@ -12,6 +12,10 @@ One additional thought to note -- this time, I did a super quick iteration. Less
 
 Actually, there is a second note too -- they want me to try to keep their existing logo, which isn't too design friendly. I gave them two versions of the design. One with a stolen modern logo as an example, and one with their current logo. We'll see how the feedback goes this time around.
 
+Cleaner logo and fonts.
+
 ![](/uploads/2018/05/28/newlogo.png)
+
+Older logo and somewhat matching fonts.
 
 ![](/uploads/2018/05/28/currentlogo.png)
