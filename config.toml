@@ -1,7 +1,6 @@
 author = "Ryan Campbell"
 baseURL = "https://ryancampbell.blog"
 enableEmoji = true
-googleAnalytics = "UA-18183842-4"
 languageCode = "en-us"
 relativeURLs = true
 theme = "hyde"
