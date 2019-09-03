@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.57.2" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Adding a Codepen Shortcode to Hugo &middot; ryan.c</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../uploads/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../uploads/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../uploads/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../uploads/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../../uploads/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../../uploads/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../../uploads/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../uploads/favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="/uploads/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/uploads/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/uploads/favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/uploads/favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/uploads/favicon/mstile-310x310.png" />
+
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="ryan.c" />
+
+  
+</head>
+
+  <body class="theme-base-0r ">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://ryancampbell.blog"><h1>ryan.c</h1></a>
+      <p class="lead">
+       I believe writing is a hobby worth persuing, so I share my thoughts here. 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="https://ryancampbell.blog">Home</a> </li>
+      <li><a href="../../contact/"> Contact </a></li><li><a href="../../blog/"> Posts </a></li><li><a href="../../projects/"> Projects </a></li>
+    </ul>
+
+    <p> </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Adding a Codepen Shortcode to Hugo</h1>
+  
+  	<span class="post-date">Tue, Apr 24, 2018</span>
+  
+  <p>Shortcodes allow you to add external content to a blog post in a user friendly way. Someone&rsquo;s tweet, an instagram photo, forms, and so on. Instead of a long ugly snippet of JavaScript, you can paste one line of clean shortcode. Hugo has <a href="https://gohugo.io/content-management/shortcodes/">built in shortcode support</a>, and adding a custom shortcode is super easy.</p>
+
+<p>I thought I would be in trouble when Google found no obvious solution for a Codepen &amp; Hugo shortcode. Fortunately, this git repo had <a href="https://github.com/jorinvo/hugo-shortcodes/blob/master/shortcodes/pen.html">just what I was looking for</a>. As stated in Hugo&rsquo;s <a href="https://gohugo.io/templates/shortcode-templates/">docs on custom shortcodes</a>, simply create a file at <code>layouts/shortcodes/name.html</code> where <code>name</code> is the name of the shortcode you want to add.</p>
+
+<p>Once the <code>name.html</code> file is created, copy the code from the repo above into it an save. Then, simply add a pen your posts with:</p>
+
+<p><code>{{&lt; pen id=&quot;Gflmy&quot; &gt;}}</code></p>
+
+<p>And that&rsquo;s it. Nice. Demo below.</p>
+
+
+
+
+
+
+
+
+
+
+
+<script
+    data-slug-hash="apJdaY"
+    data-user="jorin"
+    data-height="200"
+    data-default-tab="result"
+    data-theme-id="8862"
+    class='codepen'
+    async
+    src="//codepen.io/assets/embed/ei.js"
+></script>
+
+<p><strong>Related</strong>: Shortcodes execute even when they are wrapped in markdown code tags, or indented with 4 lines. The only way I was able to show how I embed a pen above was to escape was to use <code>&lt;/* pen id=&quot;Gflmy&quot; */&gt;</code> in between the opening and closing <code>{{}}</code></p>
+</div>
+
+
+<div class="related">
+	<b>Additional Posts</b><br /><br />
+    
+      <a class="previous" href="https://ryancampbell.blog/blog/forestry-hugo-netlify/">&#8592; Forestry &#43; Hugo &#43; Netlify</a>
+    
+    
+      <a class="next" href="https://ryancampbell.blog/blog/i-m-late-to-the-jamstack-party/">I&#39;m Late to the JAMStack Party &#8594; </a>
+    
+</div>
+
+
+
+    </div>
+
+			
+		<script>
+		(function(f, a, t, h, o, m){
+		a[h]=a[h]||function(){
+		    (a[h].q=a[h].q||[]).push(arguments)
+		};
+		o=f.createElement('script'),
+		m=f.getElementsByTagName('script')[0];
+		o.async=1; o.src=t; o.id='fathom-script';
+		m.parentNode.insertBefore(o,m)
+		})(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+		fathom('set', 'siteId', 'BAWZRCRH');
+		fathom('trackPageview');
+		</script>
+		
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>charity on ryan.c</title>
+    <link>https://ryancampbell.blog/tags/charity/</link>
+    <description>Recent content in charity on ryan.c</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 May 2018 16:19:03 -0400</lastBuildDate>
+    
+	<atom:link href="https://ryancampbell.blog/tags/charity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Second Design Proposal</title>
+      <link>https://ryancampbell.blog/blog/a-second-design-proposal/</link>
+      <pubDate>Mon, 28 May 2018 16:19:03 -0400</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/a-second-design-proposal/</guid>
+      <description>&lt;p&gt;A few days ago I submitted a &lt;a href=&#34;https://ryancampbell.blog/blog/a-design-proposal/&#34;&gt;first stab at a redesign for a local charity&lt;/a&gt;. As expected, this was way too much of a change. I learned quickly that a basic round of discussion is needed before jumping into a project. I&amp;rsquo;m still happy I practiced on the last design, but it turns out they&amp;rsquo;re looking for more of a clean, expected look. So, I ran with a look you might find in most charity templates.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Design Proposal</title>
+      <link>https://ryancampbell.blog/blog/a-design-proposal/</link>
+      <pubDate>Fri, 25 May 2018 07:28:18 -0400</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/a-design-proposal/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working with a local charity to revamp their website. This has been a good project for me for a few reasons. First, as a coder, this gives me a chance to workout some design muscles. Second, as someone who normally answers only to myself, this gives me a chance to pitch to a group and understand their needs and wishes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Lot Changes in Five Years</title>
+      <link>https://ryancampbell.blog/blog/a-lot-changes-in-six-years/</link>
+      <pubDate>Sun, 29 Apr 2018 19:29:30 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/a-lot-changes-in-six-years/</guid>
+      <description>&lt;p&gt;I recently offered to create a website for a local charity, and then it hit me &amp;ndash; I haven&amp;rsquo;t made a website in five years. Sure, I made this site and got on the &lt;a href=&#34;http://ryancampbell.blog/blog/i-m-late-to-the-jamstack-party/&#34;&gt;decentralized bandwagon&lt;/a&gt;, but I haven&amp;rsquo;t done something from scratch in some time. Especially on the design and responsive front. Now that I&amp;rsquo;m finished, I thought it may be useful to share my notes.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

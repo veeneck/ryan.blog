@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>design on ryan.c</title>
+    <link>https://ryancampbell.blog/tags/design/</link>
+    <description>Recent content in design on ryan.c</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 May 2018 16:19:03 -0400</lastBuildDate>
+    
+	<atom:link href="https://ryancampbell.blog/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Second Design Proposal</title>
+      <link>https://ryancampbell.blog/blog/a-second-design-proposal/</link>
+      <pubDate>Mon, 28 May 2018 16:19:03 -0400</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/a-second-design-proposal/</guid>
+      <description>&lt;p&gt;A few days ago I submitted a &lt;a href=&#34;https://ryancampbell.blog/blog/a-design-proposal/&#34;&gt;first stab at a redesign for a local charity&lt;/a&gt;. As expected, this was way too much of a change. I learned quickly that a basic round of discussion is needed before jumping into a project. I&amp;rsquo;m still happy I practiced on the last design, but it turns out they&amp;rsquo;re looking for more of a clean, expected look. So, I ran with a look you might find in most charity templates.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on ryan.c</title>
+    <link>https://ryancampbell.blog/tags/hugo/</link>
+    <description>Recent content in hugo on ryan.c</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 May 2018 07:01:09 -0400</lastBuildDate>
+    
+	<atom:link href="https://ryancampbell.blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Import Wordpress Nested Comments into Hugo</title>
+      <link>https://ryancampbell.blog/blog/import-wordpress-nested-comments-into-hugo/</link>
+      <pubDate>Thu, 17 May 2018 07:01:09 -0400</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/import-wordpress-nested-comments-into-hugo/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m currently in the process of converting my most &lt;a href=&#34;http://battleofbrothers.com&#34;&gt;complex Wordpress site&lt;/a&gt; into a Hugo site, and comments proved to be one of the greater challenges. My approach went from screw comments, to let&amp;rsquo;s use Disqus, to no let&amp;rsquo;s do this right and use a static comment system.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Add Jazzy Docs to Hugo</title>
+      <link>https://ryancampbell.blog/blog/add-jazzy-docs-to-hugo/</link>
+      <pubDate>Mon, 07 May 2018 20:06:53 -0400</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/add-jazzy-docs-to-hugo/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m still riding this wave of excitement for static sites and free hosting, so the next step for me was to build my code documentation right into my Hugo sites instead of a separate standalone instance on Github Pages.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adding a Codepen Shortcode to Hugo</title>
+      <link>https://ryancampbell.blog/blog/codepen-shortcode/</link>
+      <pubDate>Tue, 24 Apr 2018 12:36:17 -0400</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/codepen-shortcode/</guid>
+      <description>&lt;p&gt;Shortcodes allow you to add external content to a blog post in a user friendly way. Someone&amp;rsquo;s tweet, an instagram photo, forms, and so on. Instead of a long ugly snippet of JavaScript, you can paste one line of clean shortcode. Hugo has &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;built in shortcode support&lt;/a&gt;, and adding a custom shortcode is super easy.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Forestry &#43; Hugo &#43; Netlify</title>
+      <link>https://ryancampbell.blog/blog/forestry-hugo-netlify/</link>
+      <pubDate>Fri, 20 Apr 2018 01:17:47 +0000</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/forestry-hugo-netlify/</guid>
+      <description>&lt;p&gt;Just when I thought my publishing setup was finalized, I stumbled across &lt;a href=&#34;https://forestry.io&#34;&gt;Forestry&lt;/a&gt;. Forestry appears to solve my GUI wishlist all at once. GUI for Hugo? Check. Well designed for clients? Check. Can be mapped to my URL? Check. Well supported and documented? Check.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Publishing a Decentralized Blog</title>
+      <link>https://ryancampbell.blog/blog/getting-started/</link>
+      <pubDate>Tue, 17 Apr 2018 12:24:17 -0400</pubDate>
+      
+      <guid>https://ryancampbell.blog/blog/getting-started/</guid>
+      <description>&lt;p&gt;The promising aspect of Beaker is that all web technologies work as expected. The fact that visting a site is as simple as creating an &lt;code&gt;index.html&lt;/code&gt; and placing &lt;code&gt;dat&lt;/code&gt; instead of &lt;code&gt;http&lt;/code&gt; in front of the URL is a great start. The trickier aspect is teaching yourself to think in terms of a static, shared infrastructure instead of a central one. No database means that a static CMS is needed to manage the blog.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

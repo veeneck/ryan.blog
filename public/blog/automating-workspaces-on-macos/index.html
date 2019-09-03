@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.57.2" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Automating Workspaces on macOS &middot; ryan.c</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://ryancampbell.blog/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../../uploads/favicon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../uploads/favicon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../uploads/favicon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../uploads/favicon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../../uploads/favicon/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../../uploads/favicon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../../uploads/favicon/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../uploads/favicon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="../../uploads/favicon/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="/uploads/favicon/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/uploads/favicon/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/uploads/favicon/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/uploads/favicon/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/uploads/favicon/mstile-310x310.png" />
+
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="ryan.c" />
+
+  
+</head>
+
+  <body class="theme-base-0r ">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://ryancampbell.blog"><h1>ryan.c</h1></a>
+      <p class="lead">
+       I believe writing is a hobby worth persuing, so I share my thoughts here. 
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="https://ryancampbell.blog">Home</a> </li>
+      <li><a href="../../contact/"> Contact </a></li><li><a href="../../blog/"> Posts </a></li><li><a href="../../projects/"> Projects </a></li>
+    </ul>
+
+    <p> </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Automating Workspaces on macOS</h1>
+  
+  	<span class="post-date">Tue, May 1, 2018</span>
+  
+  <p>I now have 4 side projects in motion along with personal tasks like finance and communication. For the first time, my go to workspace solution of mission control and spaces doesn&rsquo;t cut it. Between Xcode, multiple terminal windows running, Photoshop, Mail, Photos, Sketch, and so on I finally felt overwhelmed. It&rsquo;s time for a new solution.</p>
+
+<p>I&rsquo;m sure plenty of people have scripts to handle common tasks, but I&rsquo;ve never needed it. Jumping from one project to the next has been a couple of windows at most. But, in this new web development world, <a href="http://ryancampbell.blog/blog/a-lot-changes-in-six-years/">things get complicated fast</a>. So, I wanted a solution that would close all windows, and reopen the relevant windows to exact positions in specific spaces with one keystroke. I was hoping <a href="http://www.apptorium.com/workspaces">Workspaces</a> would do the trick, but it does not have enough features. So, I rolled my own with automator. Final product below:</p>
+
+<div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/WanJoyousAmericanalligator' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+
+<p>If you&rsquo;re unfamiliar with Automator, <a href="https://www.raywenderlich.com/58986/automator-for-mac-tutorial-and-examples">this tutorial</a> can bring you up to speed. It basically runs a sequence of commands in order to automate tedious tasks. Here is the output from the gif above.</p>
+
+<p><img src="../../uploads/2018/05/01/Screen Shot 2018-04-30 at 3.03.42 PM.png" alt="" /></p>
+
+<p>One of the options in Automator is to run an AppleScript, which I ended up using the most. It&rsquo;s just more efficient to put in a couple of lines of code instead of 2 or 3 workflow actions. Below are the snippets I used most.</p>
+
+<h3 id="run-multiple-terminal-commands">Run Multiple Terminal Commands</h3>
+
+<p>With almost every project I need to open terminal. For websites, terminal runs localhost. For game development, terminal runs Jazzy docs. So, it is common to both want to be in the directory of the folder, and trigger some sort of action. Here is how I run a Hugo server automatically:</p>
+
+<pre><code>on run {input, parameters}
+
+    tell application &quot;Terminal&quot;
+        do script &quot;cd /path/to/project&quot; &amp; &quot;;hugo server -D&quot;
+        delay 0.5
+    end tell
+
+    return input
+end run
+</code></pre>
+
+<h3 id="jump-to-a-specific-space">Jump To A Specific Space</h3>
+
+<p>Next up, I&rsquo;ve always like to organize my apps into different spaces. I prefer just a few apps per space, and to keep them all related. To get this AppleScript to work, you have to first <a href="http://osxdaily.com/2011/09/06/switch-between-desktops-spaces-faster-in-os-x-with-control-keys/">enable keystrokes on your spaces</a>. Once verified, go ahead and add this script.</p>
+
+<pre><code>on run {input, parameters}
+    delay 1
+    tell application &quot;System Events&quot; to key code 20 using control down
+    delay 1
+    return input
+end run
+</code></pre>
+
+<p>Notice that the script above uses keycde 20 instead of &ldquo;3&rdquo;. There a<a href="https://discussions.apple.com/thread/7891341">ppears to be a bug where you have to use key codes</a> instead of a string of the key specifically when switching spaces.</p>
+
+<h3 id="resizing-windows">Resizing Windows</h3>
+
+<p>This was a tricky one. <a href="https://www.labnol.org/software/resize-mac-windows-to-specific-size/28345/">Resizing windows</a> is possible with AppleScript, but it would be tedious. Fortunately, I discovered the <a href="https://manytricks.com/moom/">Moom</a> (a window manager) has snapshots which save the layout of any space you tell it to. You also provide a custom name for the snapshot. In this case, the name is <code>Web Dev Build &amp; Commit</code>. To make it better, they added AppleScript support for snapshots, so that you can trigger a snapshot from a script. Once I automate all of my windows, the final step is to run this snippet:</p>
+
+<pre><code>on run {input, parameters}
+
+    tell application &quot;Moom&quot;
+        delay 1
+        arrange windows according to snapshot named &quot;Web Dev Build &amp; Commit&quot;
+        delay 1
+    end tell
+
+    return input
+end run
+</code></pre>
+
+<p>Also, if you open Moom and then go to Help-&gt;AppleScript they have a list of all commands they support. Good stuff.</p>
+
+<h3 id="changing-desktop-image">Changing Desktop Image</h3>
+
+<p>I like to change the desktop color and image often, and this automates that process. Depending on what I&rsquo;m working on, the desktop will change. Automator has a built in action for <code>Get Specified Finder Items</code> and then <code>Set Desktop Picture</code> so no AppleScript is needed.</p>
+
+<p>I did hit one bug though: When switching spaces after changing the desktop background, I would get a hard crash. To avoid this, I had to check <code>Ignore this action's input</code> under Options for the change space task.</p>
+
+<h3 id="open-in-app">Open In App</h3>
+
+<p>Opening directly in an application like Fork for version control is simple. It&rsquo;s worth noting the syntax for the path uses colons (:) instead of forward slashes (/) in this case.</p>
+
+<pre><code>on run {input, parameters}
+
+    tell application &quot;Fork&quot;
+        open &quot;path:to:project&quot;
+    end tell
+
+    return input
+end run
+</code></pre>
+
+<h3 id="open-url-and-tabs-in-safari">Open URL and Tabs in Safari</h3>
+
+<p>Opening Safari to a specific URL is straightforward.</p>
+
+<pre><code>on run {input, parameters}
+
+    do shell script &quot;open -a Safari 'http://localhost:1313'&quot;
+
+    return input
+end run
+</code></pre>
+
+<p>Opening in tabs is simple once Safari is open:</p>
+
+<pre><code>on run {input, parameters}
+
+    tell front window of application &quot;Safari&quot;
+        set newTab to make new tab
+        set the URL of newTab to &quot;http://google.com&quot;
+        set the current tab to newTab
+    end tell
+
+    return input
+end run
+</code></pre>
+
+<p>It also appears <a href="http://www.cubemg.com/how-to-fill-out-forms-on-websites-with-applescript/">form input is possible</a>, so my next step may be automating login on certain sites.</p>
+
+<h3 id="open-finder-to-a-directory">Open Finder to a Directory</h3>
+
+<p>Fairly simple task of just getting the directory open in a new Finder window while closing any previously open Finder windows.</p>
+
+<pre><code>on run {input, parameters}
+
+    tell application &quot;Finder&quot;
+        close every window
+        make new Finder window
+        set the target of the front Finder window to (POSIX file &quot;/path/to/project/&quot;)
+    end tell
+
+    return input
+end run
+</code></pre>
+
+<p>You can also remove lines 4 and 5 and replace them with <code>reopen</code> if you want to open in the current Finder window if you have one open, or a new window if you don&rsquo;t.</p>
+
+<h3 id="close-fork-tabs">Close Fork Tabs</h3>
+
+<p>Quit all applications is convenient, but some applications like to remember where they were last open. Fork, for example, will reopen with the new repository and all of the previous repositories, which gets cluttered. So, before calling the quit all applications workflow, I run this to close each for tab individually.</p>
+
+<pre><code>on run {input, parameters}
+
+    if application &quot;Fork&quot; is running then
+        activate application &quot;Fork&quot;
+        tell application &quot;System Events&quot;
+            tell process &quot;Fork&quot;
+                repeat 3 times
+                    keystroke &quot;w&quot; using command down
+                end repeat
+            end tell
+        end tell
+    end if
+
+    return input
+end run
+</code></pre>
+
+<h3 id="other-notes">Other Notes</h3>
+
+<p>While configuring all of this, I ran into these oddities:</p>
+
+<ol>
+<li>Codekit doesn&rsquo;t like Moom since it resizes on launch. I had to manually position the size of the window that sits next to Codekit.</li>
+<li>Sublime Text opens all recently used projects by default. In user defaults, set <code>hot_exit:false</code> to prevent this.</li>
+<li>Before running the Automator application that you created, click onto the desktop. Quit all apps won&rsquo;t work if one of your current apps has focus.</li>
+<li>Consider changing your newly create app by <a href="http://www.idownloadblog.com/2016/06/20/customizing-app-icons-on-mac-os-x-el-capitan/">giving it a custom icon</a>.</li>
+<li><a href="https://eastmanreference.com/complete-list-of-applescript-key-codes/">Here is handy list of key codes</a> that you may need.</li>
+</ol>
+</div>
+
+
+<div class="related">
+	<b>Additional Posts</b><br /><br />
+    
+      <a class="previous" href="https://ryancampbell.blog/blog/a-lot-changes-in-six-years/">&#8592; A Lot Changes in Five Years</a>
+    
+    
+      <a class="next" href="https://ryancampbell.blog/blog/responsive-design-with-moom/">Responsive Design With Moom &#8594; </a>
+    
+</div>
+
+
+
+    </div>
+
+			
+		<script>
+		(function(f, a, t, h, o, m){
+		a[h]=a[h]||function(){
+		    (a[h].q=a[h].q||[]).push(arguments)
+		};
+		o=f.createElement('script'),
+		m=f.getElementsByTagName('script')[0];
+		o.async=1; o.src=t; o.id='fathom-script';
+		m.parentNode.insertBefore(o,m)
+		})(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+		fathom('set', 'siteId', 'BAWZRCRH');
+		fathom('trackPageview');
+		</script>
+		
+  </body>
+</html>

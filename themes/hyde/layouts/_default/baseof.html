@@ -5,7 +5,6 @@
     {{ block "main" . -}}{{- end }}
     </div>
 
-    {{ if not .Site.BuildDrafts }}
 			<!-- Fathom - simple website analytics - https://usefathom.com -->
 		<script>
 		(function(f, a, t, h, o, m){
@@ -21,6 +20,5 @@
 		fathom('trackPageview');
 		</script>
 		<!-- / Fathom -->
-		{{ end }}
   </body>
 </html>
