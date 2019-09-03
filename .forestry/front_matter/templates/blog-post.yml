@@ -1,6 +1,6 @@
 ---
+label: blog-post
 hide_body: false
-is_partial: false
 fields:
 - name: title
   label: Title
@@ -22,13 +22,13 @@ fields:
   label: tags
   name: tags
 pages:
-- blog/a-second-design-proposal.md
-- blog/a-design-proposal.md
-- blog/import-wordpress-nested-comments-into-hugo.md
-- blog/responsive-design-with-moom.md
-- blog/i-m-late-to-the-jamstack-party.md
-- blog/forestry---hugo---netlify.md
-- blog/add-jazzy-docs-to-hugo.md
-- blog/automating-workspaces-on-macos.md
-- blog/zapier-is-key-to-static-sites.md
-- blog/a-lot-changes-in-six-years.md
+- content/blog/add-jazzy-docs-to-hugo.md
+- content/blog/a-design-proposal.md
+- content/blog/import-wordpress-nested-comments-into-hugo.md
+- content/blog/a-lot-changes-in-six-years.md
+- content/blog/automating-workspaces-on-macos.md
+- content/blog/a-second-design-proposal.md
+- content/blog/responsive-design-with-moom.md
+- content/blog/i-m-late-to-the-jamstack-party.md
+- content/blog/zapier-is-key-to-static-sites.md
+- content/blog/forestry---hugo---netlify.md
