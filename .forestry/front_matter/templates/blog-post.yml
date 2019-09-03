@@ -22,6 +22,8 @@ fields:
   label: tags
   name: tags
 pages:
+- blog/a-second-design-proposal.md
+- blog/a-design-proposal.md
 - blog/import-wordpress-nested-comments-into-hugo.md
 - blog/responsive-design-with-moom.md
 - blog/i-m-late-to-the-jamstack-party.md

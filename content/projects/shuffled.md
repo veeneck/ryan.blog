@@ -18,13 +18,3 @@ If all of that were accomplished, an acceptable photo wall would be created. Ide
 We were kicked into gear when Samsung released [The Frame TV](https://www.samsung.com/us/explore/frame-tv/). It is gorgeous, and looks like a picture frame. It comes with photo management software, but it is not powerful enough to solve our needs. However, the physical appearance is more than good enough to remove our requirement of custom wood working to conceal the displays.
 
 All that was left was a better way to manage slideshows. Surprisingly, there is no good software for it. So, I threw together a quick proof of concept, and it seemed to be a reasonable scope of work that was enjoyable to create. I'll keep moving forward. My wife will make sure it reaches enough features for our household needs. As for becoming an actual product -- time will tell.
-
-### The Landing Page
-
-[https://shuffled.space](https://shuffled.space)
-
-For this project, I wanted to try and create a landing page first and to use it as motivation. Towards the bottom, there is an active development list. I'll report back on this experiment.
-
-![](/uploads/shuffledsite.png)
-
-
