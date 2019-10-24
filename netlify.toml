@@ -13,3 +13,9 @@ from = "https://ryancampbell.blog/automating-workspaces-on-macos/"
 to = "https://bellrise.farm/house/automating-workspaces-on-macos/"
 status = 301
 force = true
+
+[[redirects]]
+from = "https://ryancampbell.blog/blog/automating-workspaces-on-macos/"
+to = "https://bellrise.farm/house/automating-workspaces-on-macos/"
+status = 301
+force = true
