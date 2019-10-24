@@ -22,13 +22,13 @@ fields:
   label: tags
   name: tags
 pages:
-- content/blog/add-jazzy-docs-to-hugo.md
-- content/blog/a-design-proposal.md
-- content/blog/import-wordpress-nested-comments-into-hugo.md
-- content/blog/a-lot-changes-in-six-years.md
-- content/blog/automating-workspaces-on-macos.md
-- content/blog/a-second-design-proposal.md
-- content/blog/responsive-design-with-moom.md
-- content/blog/i-m-late-to-the-jamstack-party.md
-- content/blog/zapier-is-key-to-static-sites.md
 - content/blog/forestry---hugo---netlify.md
+- content/blog/add-jazzy-docs-to-hugo.md
+- content/blog/automating-workspaces-on-macos.md
+- content/blog/a-design-proposal.md
+- content/blog/responsive-design-with-moom.md
+- content/blog/a-second-design-proposal.md
+- content/blog/import-wordpress-nested-comments-into-hugo.md
+- content/blog/i-m-late-to-the-jamstack-party.md
+- content/blog/a-lot-changes-in-six-years.md
+- content/blog/zapier-is-key-to-static-sites.md
